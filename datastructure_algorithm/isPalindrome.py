@@ -2,6 +2,9 @@
 
 Check given number is palindrome or not
 
+
+Kill_tel
+
 """
 
 def isPalindrome(x):
