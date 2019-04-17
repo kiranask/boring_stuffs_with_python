@@ -15,7 +15,7 @@ Given nums = [2, 7, 11, 15], target = 9, Because nums[0] + nums[1] = 2 + 7 = 9, 
 class Solution:
     def twoSum(self, nums, target):
         """
-        :type nums: List[int]
+        :type nums: Li st[int]
         :type target: int
         :rtype: List[int]
         """

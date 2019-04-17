@@ -1,26 +1,22 @@
 """
-
 Check given number is palindrome or not
-
-
-Kill_telGagaga
-
 """
 
-def isPalindrome(x):
+def isPalindrome(num):
 
-    number = str(x)
-    """
-    
-    Comparing the first character of the string with last charcter of the string
-    
-    """
-    left, right =0, len(number)-1
+    temp = num
+    rev=0
 
-    while right>left :
-        if number[left]!=number[right]:return False
-        left +=1
-        right-=1
-    return True
+    while temp != 0:
+        rev = (rev*10)+(temp%10)
+        temp = temp //10
 
-print(isPalindrome(1233211))
+
+    if num == rev:
+        return True
+    else :
+        return False
+
+
+print isPalindrome(1111)
+
