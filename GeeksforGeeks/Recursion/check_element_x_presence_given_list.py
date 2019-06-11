@@ -18,20 +18,29 @@ def recursion_search(arr, lower, upper, x):
 
     if lower > upper :
         return False
-
     if lower == x :
         return True
 
     if upper == x :
         return True
 
-
     return recursion_search(arr, lower +1 , upper -1 , x)
+
+
+def recorsion_loop(list, x):
+
+    for element in list:
+        if element == x:
+            return True
+
+    return False
 
 
 
 
 search_here = [1,2,3,4,5]
-search = 8
+search = 4
 
-print recursion_search(search_here,search_here[0], search_here[len(search_here)-1],search)
+#print recursion_search(search_here,search_here[0], search_here[len(search_here)-1],search)
+
+print recorsion_loop(search_here,search)
