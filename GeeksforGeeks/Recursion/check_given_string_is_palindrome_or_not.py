@@ -18,16 +18,13 @@ def palindrome(string_check, lower, upper):
 
     return palindrome(string_check,lower+1,upper-1)
 
-
-
-
 given_string ="malayalam"
 
 lower_char= 0
 upper_char= len(given_string)-1
 
 
-print palindrome(given_string,lower_char,upper_char)
+print (palindrome(given_string,lower_char,upper_char))
 
 
 
