@@ -1,12 +1,12 @@
-# try out the Python stack functions
+# try out the Python Stack functions
 
-# TODO: create a new empty stack
-
-
-# TODO: push items onto the stack
+# TODO: create a new empty Stack
 
 
-# TODO: print the stack contents
+# TODO: push items onto the Stack
 
 
-# TODO: pop an item off the stack
+# TODO: print the Stack contents
+
+
+# TODO: pop an item off the Stack
