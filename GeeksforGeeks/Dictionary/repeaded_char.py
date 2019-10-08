@@ -1,4 +1,3 @@
-"I have written logic to find out repeated words in given text"
 
 def repeated_words(f_name):
     f_hand = open(f_name)
@@ -21,7 +20,3 @@ def repeated_words(f_name):
 
 
 repeated_words('test.txt')
-
-
-
-

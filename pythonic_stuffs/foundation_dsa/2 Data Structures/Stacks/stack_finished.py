@@ -1,18 +1,18 @@
-# try out the Python stack functions
+# try out the Python Stack functions
 
-# create a new empty stack
+# create a new empty Stack
 stack = []
 
-# push items onto the stack
+# push items onto the Stack
 stack.append(1)
 stack.append(2)
 stack.append(3)
 stack.append(4)
 
-# print the stack contents
+# print the Stack contents
 print(stack)
 
-# pop an item off the stack
+# pop an item off the Stack
 x = stack.pop()
 print(x)
 print(stack)

@@ -11,7 +11,6 @@ Given nums = [2, 7, 11, 15], target = 9, Because nums[0] + nums[1] = 2 + 7 = 9, 
 
 """
 
-
 class Solution:
     def twoSum(self, nums, target):
         """
@@ -21,11 +20,13 @@ class Solution:
         """
         dic ={}
         for i in range(len(nums)):
-            if nums[i] in dic:
-                return dic[nums[i]], i
+            if  nums[i] not  in dic:
+                dic[target - nums[i]] = i
             else:
-                dic[target-nums[i]]=i
-ret = Solution().twoSum([13,4,45,6], 51)
-print(ret)
+                yield dic[nums[i]], i
+
+for item in Solution().twoSum([13,4,45,6, 47,50,1], 51):
+    print(item)
+
 
 

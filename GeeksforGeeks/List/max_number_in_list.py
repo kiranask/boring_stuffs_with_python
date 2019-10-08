@@ -9,12 +9,9 @@ def find_max(items):
 
     op2 = find_max(items[1:])
 
+
     if op1 > op2 :
         return op1
     else :
         return op2
-
-
 print (find_max(items))
-
-
