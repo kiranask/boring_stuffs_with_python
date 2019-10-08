@@ -9,9 +9,13 @@ class Queue:
         return self.que == []
     def size(self):
         return len(self.que)
+
+    def peek(self):
+        return self.que[-1]
 q= Queue()
 q.enqueue(10)
 q.enqueue(20)
 
-for items in range(q.size()):
-    print(q.dequeue())
+print(q.peek())
+print(q.dequeue())
+print(q.peek())

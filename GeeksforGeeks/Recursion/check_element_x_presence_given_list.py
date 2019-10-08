@@ -23,15 +23,15 @@
 #
 #     return recursion_search(arr, lower +1 , upper -1 , x)
 #
-#
-# def recorsion_loop(list, x):
-#
-#     for element in list:
-#         if element == x:
-#             return True
-#
-#     return False
-#
+
+def recorsion_loop():
+
+    for element in list:
+        if element == x:
+            return True
+
+    return False
+
 
 
 
