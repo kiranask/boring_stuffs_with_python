@@ -12,5 +12,5 @@ def find_largest(arr):
 try:
     arr.remove(find_largest(arr))
 except:
-    print "Small array"
-print "The second largest element is ",find_largest(arr)
+    print( "Small array")
+print ("The second largest element is ",find_largest(arr))

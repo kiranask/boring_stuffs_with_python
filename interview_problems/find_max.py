@@ -14,9 +14,6 @@ def find_max(items):
         return op1
     else :
         return op2
-
-
-
-print find_max(items)
+print (find_max(items))
 
 
