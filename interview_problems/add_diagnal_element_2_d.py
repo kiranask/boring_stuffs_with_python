@@ -1,6 +1,5 @@
 
 
-
 def add_diagnol_element_in2d_array(arr_2d):
     sum=0
     for i in range(len(arr_2d)):
