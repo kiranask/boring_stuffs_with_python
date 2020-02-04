@@ -8,7 +8,7 @@ def repeated_words(f_name):
     for line in f_hand:
         words = line.split()
         for word in words:
-            print word
+            print (word)
 
             if word not in word_dic:
                 word_dic[word] = 1
@@ -17,7 +17,7 @@ def repeated_words(f_name):
 
     for key, value in word_dic.items():
         if value > 1:
-            print "Repated Words are", key
+            print ("Repated Words are", key)
 
 
 repeated_words('test.txt')
