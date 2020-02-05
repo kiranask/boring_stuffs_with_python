@@ -1,11 +1,6 @@
 # Python program to reverse a string using Stack
-
 # Function to create an empty Stack.
 # It initializes size of Stack as 0
-
-
-from pythonds.basic import Stack
-
 
 def createStack():
     stack = []
@@ -17,8 +12,8 @@ def size(stack):
 
 # Stack is empty if the size is 0
 def isEmpty(stack):
-    if size(stack) == 0:
-        return True
+
+    return stack == []
 
     # Function to add an item to Stack .
 
@@ -33,6 +28,7 @@ def push(stack, item):
 def pop(stack):
     if isEmpty(stack): return
     return stack.pop()
+
 
 
 # A Stack based function to reverse a string
@@ -64,8 +60,6 @@ string = reverse(string)
 print("Reversed string is " + string)
 
 # Another Method
-
-stack = Stack()
 
 
 print ("--------------------")
