@@ -9,5 +9,5 @@ def isprime(n):
     else:
         return True
 
-print isprime(21)
+print (isprime(21))
 
