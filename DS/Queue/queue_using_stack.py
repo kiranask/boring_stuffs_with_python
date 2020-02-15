@@ -1,50 +1,26 @@
 # Python3 program to implement Queue using
 # two stacks with costly enQueue()
 
-class Queue:
+class QueueUsing2Stacks:
     def __init__(self):
-        self.s1 = []
-        self.s2 = []
+        self.in_stack = []
+        self.out_stack = []
 
-    def enQueue(self, x):
-
-        # Move all elements from s1 to s2
-        while len(self.s1) != 0:
-
-            top =self.s1.pop()
-            self.s2.append(top)
-
-        # Push item into self.s1
-        self.s1.append(x)
-
-        # Push everything back from s2 to s1
-        while len(self.s2) != 0:
-
-            top =self.s2.pop()
-            self.s1.append(top)
-
-        # Dequeue an item from the queue
-
+    def enQueue(self, element):
+        self.in_stack.append(element)
     def deQueue(self):
-
-        # if first Stack is empty
-        if len(self.s1) == 0:
-            print("Q is Empty")
-
-        # Return top of self.s1
-        return self.s1.pop()
-
-    # Driver code
-
+        if not self.out_stack:
+            while self.in_stack:
+                self.out_stack.append(self.in_stack.pop())
+        # Put all the elements of in_stack to out_stack and pop
+        return self.out_stack.pop()
 
 if __name__ == '__main__':
-    q = Queue()
+    q = QueueUsing2Stacks()
     q.enQueue(1)
     q.enQueue(2)
     q.enQueue(8)
-
     print(q.deQueue())
     print(q.deQueue())
     print(q.deQueue())
 
-# This code is contributed by PranchalK
