@@ -2,7 +2,7 @@
 
 
 # the Node class
-class Node(object):
+class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
@@ -21,7 +21,7 @@ class Node(object):
 
 
 # the LinkedList class
-class LinkedList(object):
+class LinkedList:
     def __init__(self, head=None):
         self.head = head
         self.count = 0
