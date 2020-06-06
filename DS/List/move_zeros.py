@@ -12,3 +12,5 @@ def pushZerosToEnd(arr):
             # here count is incremented
             arr[count] = arr[i]
             count += 1
+
+

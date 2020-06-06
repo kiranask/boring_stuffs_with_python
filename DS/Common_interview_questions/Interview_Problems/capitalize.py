@@ -24,7 +24,7 @@ def solve(s):
 # Inorder to loop through the string split use for loop
 
 # Replace word using s.replace(x, x.capitalize())
-    for x in s[:].split():
+    for x in s.split(" "):
         s = s.replace(x, x.capitalize())
 
 #capitalize() --> Capitalize  the first letter
