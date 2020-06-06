@@ -8,11 +8,9 @@ def reverse_for(list ):
     return reverse
 
 # Using while loop
-def reverse_while(list ):
-
+def reverse_while(list):
     lower = 0
     higher = len(list)-1
-
     while lower < higher :
         # Swap the elements
         list[lower], list [higher] = list[higher],list[lower]
