@@ -1,0 +1,10 @@
+I am Senior SDET, currently I am working Akamai from last 3 years.
+I create and develop automation framework and Automation Scripts for continous CI ad CD
+The Technology stack I use are dynamically chages depending up on the testing requirements.
+And test scenario.
+I am a Full Stack QA
+I work on both front end backend Automation
+Comimg to FE, I worked Various Cross Plat form Web Application
+And in Mobile, I worked both iOs and Android
+Automation part for FE: Selenium and Appium.
+Python -Pytest, java TestnG
