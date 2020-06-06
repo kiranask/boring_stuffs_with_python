@@ -1,32 +1,57 @@
-def rightRotate(lists, num):
-    output_list = []
+'''
+A left rotation operation on an array shifts each of the array's elements  unit to the left. For example, if  left rotations are performed on array , then the array would become .
 
-    # Will add values from n to the new list
-    for item in range(len(lists) - num, len(lists)):
-        output_list.append(lists[item])
-        print(item)
-    # Will add the values before
-    # n to the end of new list
-    for item in range(0, len(lists) - num):
-        output_list.append(lists[item])
+Given an array  of  integers and a number, , perform  left rotations on the array. Return the updated array to be printed as a single line of space-separated integers.
 
-    return output_list
+Function Description
+
+Complete the function rotLeft in the editor below. It should return the resulting array of integers.
+
+rotLeft has the following parameter(s):
+
+An array of integers .
+An integer , the number of rotations.
+Input Format
+
+The first line contains two space-separated integers  and , the size of  and the number of left rotations you must perform.
+The second line contains  space-separated integers .
+
+Constraints
+
+Output Format
+
+Print a single line of  space-separated integers denoting the final state of the array after performing  left rotations.
+
+Sample Input
+
+5 4
+1 2 3 4 5
+Sample Output
+
+5 1 2 3 4
+Explanation
+
+When we perform  left rotations, the array undergoes the following sequence of changes:
 
 
-# Driver Code
-rotate_num = 2
-list_1 = [1, 2, 3, 4, 5, 6]
+'''
+#!/bin/python3
 
-print(rightRotate(list_1, rotate_num))
+import math
+import os
+import random
+import re
+import sys
 
-def leftRotate(list, num):
-    ouput_list = []
-    len_ = len(list)
-    for i in range(num, (len_)):
-        ouput_list.append(list[i])
-    for i in range (0, num):
-        ouput_list.append(list[i])
-    return ouput_list
+# Complete the rotLeft function below.
 
-print(leftRotate(list_1, rotate_num))
 
+def array_left_rotation(a, n, k):
+    for i in range(k):
+        f = a[0]
+        a.remove(f)
+        a.append(f)
+    return a
+
+
+print(array_left_rotation([1,2,3,4,5],5,1))

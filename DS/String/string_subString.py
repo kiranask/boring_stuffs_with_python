@@ -11,7 +11,6 @@ def count_substring(string, sub_string):
     counter  = 0 # Set the counter to 0
     len_ss  = len(sub_string)
     for i in range(len(string)):
-
         if string[i] == sub_string[0]:
             # If the first char is matching string[i:i+len_ss] == sub_string
             if string[i: i+len_ss ] == sub_string:

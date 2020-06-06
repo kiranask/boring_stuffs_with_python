@@ -1,4 +1,4 @@
-# Permutation - Arrangement
+    # Permutation - Arrangement
 # Combination - Selection
 
 def permutation(s):

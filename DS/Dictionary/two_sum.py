@@ -23,7 +23,7 @@ class Solution:
             if  nums[i] not  in dic:
                 dic[target - nums[i]] = i
             else:
-                yield dic[nums[i]], i
+                yield dic[nums[i]],i
 
 for item in Solution().twoSum([13,4,45,6, 47,50,1], 51):
     print(item)
