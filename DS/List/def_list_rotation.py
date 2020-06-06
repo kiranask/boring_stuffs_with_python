@@ -44,15 +44,14 @@ import re
 import sys
 
 # Complete the rotLeft function below.
-def rotateLeft(a,n, d):
-    for i in range(n-d):
-        rotateLeftBy1(a)
-    return a
-def rotateLeftBy1(a):
-    n = len(a)
-    temp = a[0]
-    for i in range(n-1):
-        a[i] = a[i+1]
-    a[n-1] = temp
 
-print(rotateLeft([1,2,3,4,5],5,1))
+
+def array_left_rotation(a, n, k):
+    for i in range(k):
+        f = a[0]
+        a.remove(f)
+        a.append(f)
+    return a
+
+
+print(array_left_rotation([1,2,3,4,5],5,1))
