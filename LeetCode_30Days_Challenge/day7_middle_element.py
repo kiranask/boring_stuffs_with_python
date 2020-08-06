@@ -14,7 +14,7 @@ class Node():
 
 class Solution():
 
-    def middleNode(self, head):
+    def middleNode(self, head ):
         fast = slow = head
         while fast and fast.next:
             slow = slow.next
