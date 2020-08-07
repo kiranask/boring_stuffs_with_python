@@ -3,7 +3,6 @@ class Node:
         self.data = data
         self.next = None
 
-
 a = Node(1)
 b = Node(2)
 c = Node(3)
@@ -16,20 +15,22 @@ b.next = c
 print(a.data)
 print(b.data)
 print(c.data)
-print(c.next.data)
 
 
 
 
-def check_circle(node):
-    slow = node
-    fast = node
-    print("check")
+
+def check_circle(head):
+    slow = head
+    fast = head
+
     while fast.next != None and fast != None:
-        slow = node.next
-        fast = node.next.next
-        if slow == fast:
-            return True
-
+        slow = head.next
+        fast = head.next.next
+        # if slow == fast:
+        #     return True
+        # else:
+        #     return False
+    return slow.data
 print(check_circle(a))
 

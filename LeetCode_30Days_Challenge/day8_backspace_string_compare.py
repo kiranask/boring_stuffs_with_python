@@ -1,19 +1,16 @@
-def backspaceCompare(S, T):
-    kiran = rakz = []
-    for i in range(len(S)):
-        if S[i].isalpha():
-            kiran.append(S[i])
-        else:
-            kiran.pop()
-    for i in range(len(T)):
+class Solution:
+    def backspaceCompare(self, S: str, T: str) -> bool:
+        kiran, rakz = [], []
+        for i in range(len(S)):
+            if S[i] != "#":
+                kiran.append(S[i])
+            elif len(kiran) > 0:
+                kiran.pop()
+        for i in range(len(T)):
+            if T[i] != "#":
+                rakz.append(T[i])
+            elif len(rakz) > 0:
 
-        if T[i].isalpha():
-            rakz.append(T[i])
-        else:
-            rakz.pop()
+                rakz.pop()
+        return kiran == rakz
 
-    print(kiran)
-    print(rakz)
-    return kiran == rakz
-
-print(backspaceCompare("ab#c","ad#c"))
