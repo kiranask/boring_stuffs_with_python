@@ -1,4 +1,6 @@
 with open('ad_metrics') as gb:
+
+    adplay_time =0
     for lines in gb.readlines():
         gb_list = lines.split(":")
         print("<====================start=============================")
@@ -14,6 +16,7 @@ with open('ad_metrics') as gb:
         print("ad start pos is: ", gb_list[2])
         print("ad startup time: ", gb_list[3])
         print("ad playTime: ", gb_list[4])
+        adplay_time += int(gb_list[4])
         print("ad playBucket: ", gb_list[5])
         if int(gb_list[5]) ==0:
             print("<25% played")
@@ -45,6 +48,6 @@ with open('ad_metrics') as gb:
         print("adIndustryCategory: ", gb_list[13])
         print("adEvent: ", gb_list[14])
         print("==============end ================")
-
+    print("ad playtime is: ", adplay_time)
 
 
