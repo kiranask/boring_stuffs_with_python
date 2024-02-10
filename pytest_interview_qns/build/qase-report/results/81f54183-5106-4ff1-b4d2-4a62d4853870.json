@@ -1,0 +1,23 @@
+{
+    "id": "81f54183-5106-4ff1-b4d2-4a62d4853870",
+    "title": "test_that_depends_on_resource",
+    "signature": "test_sample1.py::Test::test_that_depends_on_resource",
+    "run_id": null,
+    "testops_id": null,
+    "execution": {
+        "start_time": 1706194022.8133602,
+        "status": "passed",
+        "end_time": 1706194022.8151228,
+        "duration": 1,
+        "stacktrace": null,
+        "thread": "68180-MainThread"
+    },
+    "fields": {},
+    "attachments": [],
+    "steps": [],
+    "params": {},
+    "author": null,
+    "relations": [],
+    "muted": false,
+    "message": null
+}

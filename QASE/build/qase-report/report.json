@@ -1,0 +1,40 @@
+{
+    "title": "Test run",
+    "execution": {
+        "start_time": 1689944826.6738088,
+        "end_time": 1689944835.166668,
+        "duration": 8492,
+        "cumulative_duration": 8468
+    },
+    "stats": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "broken": 0,
+        "muted": 0,
+        "total": 1
+    },
+    "results": [
+        {
+            "id": "87d4c4a9-df7b-49d0-84a5-6f16e894ab53",
+            "title": "test_title",
+            "status": "passed",
+            "duration": 8468,
+            "thread": "51868-MainThread"
+        }
+    ],
+    "threads": [
+        "51868-MainThread"
+    ],
+    "suites": [],
+    "environment": null,
+    "host_data": {
+        "system": "Darwin",
+        "node": "blr-mpa8q",
+        "release": "22.5.0",
+        "version": "Darwin Kernel Version 22.5.0: Thu Jun  8 22:22:20 PDT 2023; root:xnu-8796.121.3~7/RELEASE_ARM64_T6000",
+        "machine": "arm64",
+        "python": "3.11.2.final.0",
+        "pip": "23.2"
+    }
+}
