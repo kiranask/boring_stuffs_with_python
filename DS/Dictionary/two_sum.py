@@ -25,8 +25,19 @@ class Solution:
             else:
                 yield dic[nums[i]],i
 
-for item in Solution().twoSum([13,4,45,6, 47,50,1], 51):
-    print(item)
+    def two_sum(self, nums, target):
+        dic = {}
+        
+        for item in nums:
+            if item not in dic:
+                dic[target-item] = item
+            else:
+                yield [item, dic[item]]
 
+# for item in Solution().twoSum([13,4,45,6, 47,50,1], 51):
+#     print(item)
+
+for item in Solution().two_sum([13,4,45,6, 47,50,1], 51):
+    print(item)
 
 

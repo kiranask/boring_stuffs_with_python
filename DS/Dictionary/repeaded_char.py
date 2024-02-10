@@ -14,9 +14,9 @@ def repeated_words(f_name):
             else:
                 word_dic[word] += 1
 
-    for value in word_dic.values():
+    for key, value in word_dic.items():
         if value > 1:
-            print ("Repated Words are", value)
+            print(key)
 
 
 repeated_words('test.txt')

@@ -1,1 +1,4 @@
-[]
+[
+  "test_sample1.py::Test::test_sample_1",
+  "test_sample1.py::Test::test_that_depends_on_resource"
+]
