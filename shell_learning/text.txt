@@ -1,0 +1,23 @@
+🚀 About Me:
+
+As a seasoned Lead SDET Engineer, I bring extensive experience in spearheading and nurturing teams dedicated to refining Test Automation strategies, with a keen emphasis on Agile/SaFe methodologies. At the helm of an Automation team, our goal is to revolutionize testing processes, ensuring they are both efficient and innovative. My current focus is leading Automation efforts for Zero Trust requirements, leveraging my solid technical foundation to devise solutions that are both resilient and flexible.
+
+🔧 What I Do Technically:
+
+I excel in the creation and design of automated tests and frameworks that support continuous integration, delivery, and deployment, seamlessly adapting to diverse technology stacks to meet client needs and respond to changing environments.
+
+✨ Expertise Highlights:
+
+Design and development of Automation Frameworks for Web, Android, iOS Apps, Web services, and Backend.
+Proficiency in JAVA, Python, Katalon Studio, Selenium, Appium, Docker, and more.
+Skilled in Restful Web Services, TestNG, Pytest, Sauce Labs, and a suite of other automation tools.
+Continuous Integration and Deployment expertise using Jenkins, CodeShip, and similar platforms.
+Advanced API Automation Testing capabilities with SoapUI, Retrofit, POSTMAN, RestAssured, and WebDriver.
+✨ Specialties:
+
+Adept in developing Automation Scripts and establishing various automation frameworks including Data-Driven, Method-Driven, Hybrid, and more.
+Comprehensive experience across IOS, Android, and Desktop Web Application Platforms.
+Crafted Restful Web Services Automation Suites from scratch for domains like E-Commerce, Edtech, and Media.
+🌱 Who I Am:
+
+Driven by a passion for Backend, Mobile, and UI, and Web Services Automation Frameworks Design, I've explored the breadth of testing, including Manual and Automation, across Web, Mobile, and Backend spaces. My drive to constantly develop new skills and deepen my expertise in the Automation domain propels me to push boundaries and strive for excellence in everything I undertake.
