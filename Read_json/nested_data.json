@@ -1,0 +1,36 @@
+{
+  "name": "John",
+  "age": 30,
+  "address": {
+    "city": "New York",
+    "zip": "10001",
+    "geo": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    }
+  },
+  "children": [
+    {
+      "name": "Anna",
+      "age": 10,
+      "school": {
+        "name": "PS 123",
+        "address": {
+          "city": "New York",
+          "zip": "10002"
+        }
+      }
+    },
+    {
+      "name": "Alex",
+      "age": 8,
+      "school": {
+        "name": "PS 456",
+        "address": {
+          "city": "New York",
+          "zip": "10003"
+        }
+      }
+    }
+  ]
+}
