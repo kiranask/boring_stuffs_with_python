@@ -1,0 +1,40 @@
+{
+	"mode": "testops",
+	"fallback": "report",
+	"report": {
+		"driver": "local",
+		"connection": {
+			"local": {
+				"path": "./build/qase-report",
+				"format": "json"
+			}
+		}
+	},
+	"testops": {
+		"bulk": true,
+		"api": {
+			"token": "853eb6aaab4a65c9f3eea2ee859031516fc4268c370d1c694869261e86f653f2",
+			"host": "qase.io"
+		},
+		"run": {
+            "id": 1,
+			"title": "test123",
+			"complete": true
+		},
+        "plan": {
+            "id": 1
+        },
+		"defect": true,
+		"project": "KIRAN",
+		"chunk": 200
+	},
+	"framework": {
+		"pytest": {
+			"capture": {
+				"logs": true,
+				"http": true
+			}
+		}
+	},
+	"environment": "local"
+}

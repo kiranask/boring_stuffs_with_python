@@ -26,3 +26,4 @@ class Derived(Base1, Base2):
 # When create the object __init__() method will get called,
 ob = Derived()
 
+ob.printStrs()

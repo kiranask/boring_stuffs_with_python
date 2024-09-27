@@ -3,6 +3,9 @@ Anagram:
 Given two strings, check whether two given strings are anagram of each other or not.
 An anagram of a string is another string that contains same characters, only the order
 of characters can be different. For example, “act” and “tac” are anagram of each other.
+
+How to solve anagram problem,
+Take 2 Dic
 """
 input_str_1 = "RAM"
 input_str_2 = "MAR"

@@ -5,6 +5,7 @@ class Node:
 
 
 class Solution:
+
     def display(self, head):
         current = head
         while current:

@@ -1,0 +1,28 @@
+{
+    "id": "ad34b6d9-1738-41d2-85de-e4619ca8b1e8",
+    "title": "My first test",
+    "signature": "qase_test_1.py::test_example_1",
+    "run_id": null,
+    "testops_id": 1,
+    "execution": {
+        "start_time": 1689926325.4555478,
+        "status": "passed",
+        "end_time": 1689926325.456684,
+        "duration": 1,
+        "stacktrace": null,
+        "thread": "22853-MainThread"
+    },
+    "fields": {
+        "severity": "critical",
+        "priority": "hight",
+        "layer": "unit",
+        "description": "*Precondition 1*. Markdown is supported."
+    },
+    "attachments": [],
+    "steps": [],
+    "params": {},
+    "author": null,
+    "relations": [],
+    "muted": false,
+    "message": null
+}

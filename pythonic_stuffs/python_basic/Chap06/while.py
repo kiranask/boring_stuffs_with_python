@@ -5,4 +5,10 @@ secret = 'swordfish'
 pw = ''
 
 while pw != secret:
-    pw = input("What's the secret word? ")
+    pw = str(input("What's the secret word? "))
+    if len(pw)==0:
+        print("Please enter password")
+    elif pw.isnumeric():
+        print("Enter String value")
+    else:
+        print("Wrong password!")
