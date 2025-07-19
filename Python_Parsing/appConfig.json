@@ -1,0 +1,1196 @@
+{"ssh": {
+      "servers": [
+        {
+          "origin_protocol": "ssh",
+          "origin_host": "198.18.241.194",
+          "origin_port": "22"
+        }
+      ],
+      "domain": "akamai",
+      "host": "",
+      "connector_names": []
+    },
+    "jira": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.241.194",
+          "origin_port": "8080"
+        }
+      ],
+      "app_location": "",
+      "internal_hostname": "",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-Jira-application-1651653281",
+      "pass_phrase": "Wapp123$",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "dnd_scim-demo-ssahoo-1"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": []
+    },
+    "access-jira": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.241.194",
+          "origin_port": "8080"
+        }
+      ],
+      "app_location": "",
+      "internal_hostname": "",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-Access-Jira-application-1651653281",
+      "pass_phrase": "Wapp123$",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "dnd_scim-demo-ssahoo-1"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": []
+    },
+    "jenkins": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.157.212",
+          "origin_port": "8080"
+        }
+      ],
+      "app_location": "",
+      "internal_hostname": "",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-Jenkins-application-1651653281",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "dnd_scim-demo-ssahoo-1"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": [],
+      "wapp_auth": "form",
+      "app_facing_auth": "NTLMv1"
+    },
+    "akamai-jenkins": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.157.212",
+          "origin_port": "8080"
+        }
+      ],
+      "app_location": "",
+      "internal_hostname": "",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-akamai-jenkins-application-1651653281",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": [],
+      "wapp_auth": "form",
+      "app_facing_auth": "NTLMv1"
+    },
+    "access-jenkins": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.157.212",
+          "origin_port": "8080"
+        }
+      ],
+      "app_location": "",
+      "internal_hostname": "",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-Access-Jenkins-application-1651653281",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "dnd_scim-demo-ssahoo-1"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": [],
+      "wapp_auth": "form",
+      "app_facing_auth": "NTLMv1"
+    },
+    "akamai-access-jenkins": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.157.212",
+          "origin_port": "8080"
+        }
+      ],
+      "app_location": "",
+      "internal_hostname": "",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-akamaiaccess-jenkins-application-1651653281",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": [],
+      "wapp_auth": "form",
+      "app_facing_auth": "NTLMv1"
+    },
+    "sharepoint": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.157.205",
+          "origin_port": "80"
+        }
+      ],
+      "app_location": "SitePages/Home.aspx",
+      "internal_hostname": "sharepoint.sanjose.pelicancloud.com",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-Sharepoint-application-1651653281",
+      "pass_phrase": "Wapp123$",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": [],
+      "wapp_auth": "form",
+      "app_auth": "NTLMv1"
+    },
+    "access-sharepoint": {
+      "servers": [
+        {
+          "origin_protocol": "http",
+          "origin_host": "198.18.157.205",
+          "origin_port": "80"
+        }
+      ],
+      "app_location": "SitePages/Home.aspx",
+      "internal_hostname": "sharepoint.sanjose.pelicancloud.com",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-Access-Sharepoint-application-1651653281",
+      "pass_phrase": "Wapp123$",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": [],
+      "wapp_auth": "form",
+      "app_auth": "NTLMv1"
+    },
+    "akamai-custom-http": {
+      "servers": [
+        {
+          "origin_protocol": "https",
+          "origin_host": "www.google.com",
+          "origin_port": "443"
+        }
+      ],
+      "app_location": "",
+      "internal_hostname": "",
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-akamaiaccess-jenkins-application-1651653281",
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "is_ssl_verification_enabled": "false",
+      "akamai_cloud_zone": "",
+      "disabled_clipboard": "",
+      "connector_names": [],
+      "wapp_auth": "form",
+      "app_facing_auth": "NTLMv1"
+    },
+    "remote-spark": {
+      "domain": "akamai",
+      "host": "hybrid-griffin-auto-remote-spark-application-1651653281",
+      "is_ssl_verification_enabled": "false",
+      "directory_list": [],
+      "servers": [
+        {
+          "origin_protocol": "rdp",
+          "origin_host": "198.18.241.98",
+          "origin_port": "3389"
+        }
+      ],
+      "server_password": "Akamai123!",
+      "user_credentials": {
+        "username": "bypassCertuser3@ztcore.com",
+        "password": "3edc#EDC"
+      },
+      "invalid_user_credentials": {
+        "username": "bypassCertuser3@ztcore.com",
+        "password": "3bgh#FGC"
+      }
+    },
+    "saml_o365_saas": {
+      "idp_name": "dnd_o365IdpAppcheck",
+      "directory_list": [
+        "AD_O365_DO_NOT_DELETE"
+      ],
+      "attrmap": [
+        {
+          "fmt": "unspecified",
+          "fname": "",
+          "name": "IDPEmail",
+          "src": "user.userPrincipleName"
+        }
+      ],
+      "idp": {
+        "sign_algo": "SHA1",
+        "self_signed": false,
+        "sign_cert": "-----BEGIN CERTIFICATE-----\nMIIGYTCCBUmgAwIBAgITLgAAKGd741zmrFnPegAFAAAoZzANBgkqhkiG9w0BAQsF\nADBRMRQwEgYKCZImiZPyLGQBGRYEbGl2ZTEWMBQGCgmSJomT8ixkARkWBnNoeXJ1\nczEhMB8GA1UEAxMYc2h5cnVzLVNRQUlTU1VJTkdDQS1DQS0xMB4XDTIyMTExMDA5\nNTAwM1oXDTI0MDUwNzE2NDkzNlowgZUxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpD\nYWxpZm9ybmlhMRIwEAYDVQQHEwlTdW5ueXZhbGUxDTALBgNVBAoTBFNvaGExEzAR\nBgNVBAsTCk15RGl2aXNpb24xOTA3BgNVBAMTMG8zNjVpZHBkb25vdGRlbGV0ZS5s\nb2dpbi5zdGFnZS5ha2FtYWktYWNjZXNzLmNvbTCCASIwDQYJKoZIhvcNAQEBBQAD\nggEPADCCAQoCggEBAKTYCcNI7H2iokfLjfC0ZfoYjcDKvmoVIEZ2+a3KPQ/RXglR\nA9DOFFXiw2N27uz7T1hYdrVhmO79zGOVJl/1SCi16ZTK+OIx+Y9b8uJl1atF/oGQ\noB8gD4cpsXsewLvrCKK0Lf47LJQEGbRL/Nk/mAXCM5fnTh8pk1YxHpt0T6KvhGK4\nUQ89zOfmbG/6YwgiF5Tap9Jx4fIiLk8phREUxrXUB+wgnUAxW1g18wwtftKXIkq0\nn6IfCM+BQ2AeBKZ0pyn+2/VUq2hyGZzDTroa/u4rVJP9GZOjQsJvEF5h3IxLrdcU\nwWin41++xQnN1To3UyalWaIhE0zitsOef6nPkLMCAwEAAaOCAuswggLnMAsGA1Ud\nDwQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOwYDVR0RBDQw\nMoIwbzM2NWlkcGRvbm90ZGVsZXRlLmxvZ2luLnN0YWdlLmFrYW1haS1hY2Nlc3Mu\nY29tMB0GA1UdDgQWBBTb5hKTT/EIbARaspUrabk7wx0oMTAfBgNVHSMEGDAWgBRh\nM4EOLi2DcnZsMnkHITV2oD/vfDCB2wYDVR0fBIHTMIHQMIHNoIHKoIHHhoHEbGRh\ncDovLy9DTj1zaHlydXMtU1FBSVNTVUlOR0NBLUNBLTEsQ049c3FhaXNzdWluZ2Nh\nLENOPUNEUCxDTj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxD\nTj1Db25maWd1cmF0aW9uLERDPXNoeXJ1cyxEQz1saXZlP2NlcnRpZmljYXRlUmV2\nb2NhdGlvbkxpc3Q/YmFzZT9vYmplY3RDbGFzcz1jUkxEaXN0cmlidXRpb25Qb2lu\ndDCB9AYIKwYBBQUHAQEEgecwgeQwgbcGCCsGAQUFBzAChoGqbGRhcDovLy9DTj1z\naHlydXMtU1FBSVNTVUlOR0NBLUNBLTEsQ049QUlBLENOPVB1YmxpYyUyMEtleSUy\nMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24sREM9c2h5cnVz\nLERDPWxpdmU/Y0FDZXJ0aWZpY2F0ZT9iYXNlP29iamVjdENsYXNzPWNlcnRpZmlj\nYXRpb25BdXRob3JpdHkwKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLnNoeXJ1cy5s\naXZlL29jc3AwPgYJKwYBBAGCNxUHBDEwLwYnKwYBBAGCNxUIg4PSdoTxwT2BmZUQ\nhqSxfoft90OBSYWM2DaC4q95AgFkAgENMCcGCSsGAQQBgjcVCgQaMBgwCgYIKwYB\nBQUHAwEwCgYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggEBAAfOBWxwvsZ3PABq\nkZGybdxVCx/XZ9C+qMl6ZDImQ1fQJnYFeejIUbWq8CszRv6ZozhZkTadYvzZ9NSg\neMmsljWkLrs6J30pzpZe+zLEbCs44Ddcupm7hoEiB5G+nCOGPGclQICZ2y9v+9Kj\nSe22SOQwkkc78XrjeK2Z7mnL8xgEZmcq+lfKh5Xh3QNaUq8mfzoMgI5S3qRyRyyO\n8nttNoBEDYGJ1T6lMhfRfqED3KPM1Tz7FxYJEAA3q6bryZSQhYDn0T2gXqjnfuTf\nYJGXwl9+sZeaAcccntKT3yLtkBUZBOU60MwxK82rbI+epvmFcj/5X45l+K6ykbVz\nD6+dp8s=\n-----END CERTIFICATE-----",
+        "sign_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCk2AnDSOx9oqJH\ny43wtGX6GI3Ayr5qFSBGdvmtyj0P0V4JUQPQzhRV4sNjdu7s+09YWHa1YZju/cxj\nlSZf9UgotemUyvjiMfmPW/LiZdWrRf6BkKAfIA+HKbF7HsC76wiitC3+OyyUBBm0\nS/zZP5gFwjOX504fKZNWMR6bdE+ir4RiuFEPPczn5mxv+mMIIheU2qfSceHyIi5P\nKYURFMa11AfsIJ1AMVtYNfMMLX7SlyJKtJ+iHwjPgUNgHgSmdKcp/tv1VKtochmc\nw066Gv7uK1ST/RmTo0LCbxBeYdyMS63XFMFop+NfvsUJzdU6N1MmpVmiIRNM4rbD\nnn+pz5CzAgMBAAECggEAI0OkMwaysN3N4ZYGM2wkNLB0Ar5cpc0HLovdNfSBw5SC\njXOrYUv0xbrRGcIjssbAXqHuIzdRxC6/Pr51iymp2iuwYIhbXeha/vQorY4je5Rp\nscYCuyXcrIma0j/t80WAf24UOMLn8nI+HXf0C3WzS+gTqXduGvSF9HZlmdP0BVU2\n9/GzN/r4MyZpdlBuAkaQOQc6wsJtopL6zu3oIiphusMyT4Q82tA+SDJYGysSYIlG\nwyp4zTDENTyhUk5ZL+D8eccGHYHOFx4m5w5nYHtEpNCcoisf/jAfp+lmVH94f/fc\nvQXMdCSQ/MiILv3p8/pU5PcIzUs98O3X2VrUem8DgQKBgQDYAtBdL1PyNJOIO7YX\n9AEhMH+4gvjJQ4RPIOYoL/vAuNGoiBzE5bBJPg9b5h2EogFCTDZBtptNcukiXqWU\nwgc4sjccfmmMLRsS4YmMwNjK5/ZVWz+OgHpJSDm4npYWUZGi7PFatP1JjEi5AaCD\nCCph/AiMpb3s3TF3/3zLj0sTYwKBgQDDXFCh0lyFf7X+VrTW+JUxtO08HFMJQK63\n7Jak0ibnEnc282qHzzMeXVWx2mjWQxINopawdazBBanB7dRBeOAFwNPygj2psitP\n94gVZ2zpAx3ROso2ZjPliYb1ek2xDvhU4u8m1KlD+yqUn2bI/qBRXvt/2emOEygQ\njCKem3CWcQKBgB6/n8tz/j4fD9U3sr8MI9EGp1erhSCZNM9SvpB/7BVN+cJExdud\nWo/Cfss1IYSMzyMR2DNYfBj1P4x97pITYJXIgKHUuM+UaCMy6bKYjQOtK1qRJ6Xw\nUff2iQjnwjOhHtsTYXPpCZkbmAqF2cRtOCNEji7/NN7vyafsPWZ4mlZDAoGAE54Q\nhr9uBQXXC6w/Spr5uF0XuYKKoBI7uUJrui9UMr369Kyq1Opskq8CrPJmtqVTicT6\n5staRqO/8TZlqxFtRYaggeisMn8utEACDUwudpOWie0iYyYOLg2KXNokNRRwwW1s\nYHTYbngpRXVgR+yxwpoMHUGPn3GzAz5fN5gaTTECgYADIbJ0RZPxk0nVxFfpKG+E\nIfzRymlKl1QDmv5VscnfmxVZHYQtwi3t0zGZcxha5CvBqh4MJYR/1/sV597Dm78a\n0cDYzuKTbgsOyK8qFbVk7ECreC9YgJrojLufLeDHL2gj8JRMaTKWHytdxryq10Or\nMMYDsPt7S0X3qfZWUX3HAg==\n-----END PRIVATE KEY-----"
+      },
+      "sp": {
+        "acs_url": "https://login.microsoftonline.com/login.srf",
+        "entity_id": "urn:federation:MicrosoftOnline",
+        "req_verify": false,
+        "resp_encr": false,
+        "slo_bind": "redirect",
+        "slo_req_verify": false,
+        "slo_url": "https://www.office.com/estslogout?ru=%2F"
+      },
+      "subject": {
+        "fmt": "persistent",
+        "rule": "{ \"immutable-id\" : [{\"$\" : \"user.persistentId\"}]}",
+        "src": ""
+      },
+      "office_url": "https://portal.office.com",
+      "title": "Sign in to your account",
+      "user_credential": {
+        "username": "testo365u1@apaautomation.in",
+        "password": "Akamai@123"
+      }
+    },
+    "Saas-saml-ecp-app": {
+      "bookmark_url": "https//:login.office.club",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "AuthNrequest_file": "AuthNrequest.xml",
+      "sp": {
+        "acs_url": "https://login.microsoftonline.com/login.srf",
+        "default_relay_state": null,
+        "encr_algo": "aes256-cbc",
+        "entity_id": "urn:federation:MicrosoftOnline",
+        "force_auth": false,
+        "req_bind": "redirect",
+        "req_verify": false,
+        "resp_encr": false,
+        "slo_bind": "post",
+        "slo_req_verify": true,
+        "slo_url": "https://www.office.com/estslogout?ru=%2F"
+      },
+      "idp": {
+        "resp_bind": "post",
+        "self_signed": true,
+        "sign_algo": "SHA256",
+        "ecp_enable": false,
+        "ecp_resp_signature": false
+      },
+      "subject": {
+        "fmt": "email",
+        "src": "user.email"
+      },
+      "attrmap": [],
+      "header_value": {
+        "Content-Type": "application/xml"
+      },
+      "response_signature_value_path": ".//{http://www.w3.org/2000/09/xmldsig#}SignatureValue",
+      "response_name_id_path": ".//{urn:oasis:names:tc:SAML:2.0:assertion}NameID",
+      "SOAP_binding_tag": ".//*[@Binding='urn:oasis:names:tc:SAML:2.0:bindings:SOAP']",
+      "sp_NameID_format_tag": ".//{urn:oasis:names:tc:SAML:2.0:metadata}NameIDFormat",
+      "attribute_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}Attribute",
+      "attribute_value_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}AttributeValue",
+      "invalid_user": {
+        "username": "samlinvaliduser@ztcore.com",
+        "password": "Saml@123"
+      }
+    },
+    "Darkseid_admin": {
+      "idp_name": "DND_Darkseid_admin_test_scenario",
+      "static_http_app_name": "DND_darkseid_http_app",
+      "static_jira_app":"DND_darseid_admin_jira_app",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "email_user": {
+        "username": "emailmfauser@eaa.com",
+        "password": "Akamai@123"
+      },
+      "totp_user": {
+        "username": "totpuser@eaa.com",
+        "password": "Akamai@123"
+      },
+      "totp_user_qr_code": "otpauth://totp/darkseidadminidp.login.stage.akamai-access.com:totpuser%40eaa.com?secret=VNKEBWJERVDKGL34HJPZPTTH&issuer=darkseidadminidp.login.stage.akamai-access.com&period=30&digits=6"
+    },
+    "Darkseid_alpha": {
+      "idp_name": "DND_Darkseid_alpha_test_scenario",
+      "static_http_app_name": "DND_darkseid_alpha_http_app",
+      "static_jira_app":"DND_darseid_alpha_jira_app",
+      "directory_list": [
+        "Cloud Directory"
+      ],
+      "email_user": {
+        "username": "emailmfauser@eaa.com",
+        "password": "Akamai@123"
+      },
+      "totp_user": {
+        "username": "totpuser@eaa.com",
+        "password": "Akamai@123"
+      },
+      "totp_user_qr_code": "otpauth://totp/darkseidadminidp.login.stage.akamai-access.com:totpuser%40eaa.com?secret=VNKEBWJERVDKGL34HJPZPTTH&issuer=darkseidadminidp.login.stage.akamai-access.com&period=30&digits=6"
+    },
+    "open_ssl_data": {
+      "domain": 1,
+      "is_akamai_domain": false,
+      "custom_domain": {
+        "cert_file_1024": "private_ca_1024.cer",
+        "private_key_file_1024": "private_ca_1024.key",
+        "cert_file_2048": "private_ca_2048.cer",
+        "private_key_file_2048": "private_ca_2048.key",
+        "cert_file_4096": "private_ca_4096.cer",
+        "private_key_file_4096": "private_ca_4096.key",
+        "crt_cert_file": "openssl_ca_crt.crt"
+      },
+      "opens_ssl_1024_app": {
+        "servers": [
+          {
+            "origin_protocol": "https",
+            "origin_host": "172.105.35.87",
+            "origin_port": "99"
+          }
+        ]
+      },
+      "opens_ssl_2048_app": {
+        "servers": [
+          {
+            "origin_protocol": "https",
+            "origin_host": "172.105.35.87",
+            "origin_port": "92"
+          }
+        ]
+      },
+      "opens_ssl_4096_app": {
+        "servers": [
+          {
+            "origin_protocol": "https",
+            "origin_host": "openssl4086app.apaautomation.in",
+            "origin_port": "94"
+          }
+        ]
+      },
+      "opens_ssl_sslv3_app": {
+        "servers": [
+          {
+            "origin_protocol": "https",
+            "origin_host": "198.18.155.227",
+            "origin_port": "8090"
+          }
+        ]
+      },
+      "opens_ssl_websocket_app": {
+        "servers": [
+          {
+            "origin_protocol": "http",
+            "origin_host": "172.105.40.32",
+            "origin_port": "5000"
+          }
+        ]
+      },
+      "rdp_app" : {
+        "servers": [
+          {
+            "origin_protocol": "rdp",
+            "origin_host": "198.18.155.172",
+            "origin_port": "3389"
+          }
+        ],
+        "server_password": "Akamai@123",
+        "user_credentials": {
+          "username": "testu4@ztcore.com",
+          "password": "Akamai@123"
+        },
+        "ca_cert": "rdp_ca.crt"
+      },
+      "ssh_app": {
+        "servers": [
+          {
+            "origin_protocol": "ssh",
+            "origin_host": "198.18.241.194",
+            "origin_port": "22"
+          }
+        ],
+        "ssh_server_pass": "Akamai123!",
+        "rsa_host_key_file": "rsa_app_host_key.key",
+        "ssh_private_key": "ssh_private_key.key",
+        "ssh_private_key_passphrase": "Akamai@123"
+      },
+      "domains" : {
+        "app": {
+          "prod": {
+            "self_signed_cert_domain" : "prod-self-signed-cert-domain.apaautomation.in",
+            "cert_1024_key_domain" : "prod-cert-1024-key-domain.apaautomation.in",
+            "cert_2048_key_domain" : "prod-cert-2048-key-domain.apaautomation.in",
+            "cert_4096_key_domain" : "prod-cert-4096-key-domain.apaautomation.in",
+            "cert_crt_domain" : "prod-cert-crt-domain.apaautomation.in"
+          },
+          "admin": {
+            "self_signed_cert_domain" : "admin-self-signed-cert-domain.apaautomation.in",
+            "cert_1024_key_domain" : "admin-cert-1024-key-domain.apaautomation.in",
+            "cert_2048_key_domain" : "admin-cert-2048-key-domain.apaautomation.in",
+            "cert_4096_key_domain" : "admin-cert-4096-key-domain.apaautomation.in",
+            "cert_crt_domain" : "admin-cert-crt-domain.apaautomation.in"
+          },
+          "alpha": {
+            "self_signed_cert_domain" : "alpha-self-signed-cert-domain.apaautomation.in",
+            "cert_1024_key_domain" : "alpha-cert-1024-key-domain.apaautomation.in",
+            "cert_2048_key_domain" : "alpha-cert-2048-key-domain.apaautomation.in",
+            "cert_4096_key_domain" : "alpha-cert-4096-key-domain.apaautomation.in",
+            "cert_crt_domain" : "alpha-cert-crt-domain.apaautomation.in"
+          }
+        }
+      }
+    },
+    "Password_reset_alpha": {
+      "idp_url_mfa_disabled": "https://pwdresetidp2401.login.stage.akamai-access.com",
+      "idp_url_mfa_enabled": "https://dndpwdresetwithmfa.login.stage.akamai-access.com",
+      "idp_name_mfa_disabled": "DND_pwd_reset_without_mfa",
+      "idp_name_mfa_enabled": "DND_pwd_reset_with_mfa",
+      "static_app_mfa_disabled": "https://dndpwdresetapp1.stage.akamai-access.com",
+      "static_app_mfa_enabled": "https://dndpwdresetappwithmfa.stage.akamai-access.com",
+      "app_name_mfa_disabled": "DND_pwd_reset_app",
+      "app_name_mfa_enabled": "DND_pwd_reset_app_with_mfa",
+      "directory_list": [
+        "Cloud Directory","DND_eaaroot"
+      ],
+      "AD_user": {
+        "username": "automationuser1",
+        "password": "Gdse!d302"
+      },
+      "AD_user_new": {
+        "username": "automationuser1",
+        "password": "Gdse!d203"
+      },
+      "email_user": {
+        "username": "automationuser2",
+        "password": "Gdse!d302"
+      },
+      "email_user_new": {
+        "username": "automationuser2",
+        "password": "Gdse!d203"
+      },
+      "sms_user": {
+        "username": "automationuser3",
+        "password": "Gdse!d302"
+      },
+      "sms_user_new": {
+        "username": "automationuser3",
+        "password": "Gdse!d203"
+      },
+      "totp_user": {
+        "username": "automationuser4",
+        "password": "Gdse!d302"
+      },
+      "totp_user_new": {
+        "username": "automationuser4",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user": {
+        "username": "automationuser5",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_new": {
+        "username": "automationuser5",
+        "password": "Gdse!d203"
+      },
+      "AD_user_app": {
+        "username": "automationuser6",
+        "password": "Gdse!d302"
+      },
+      "AD_user_app_new": {
+        "username": "automationuser6",
+        "password": "Gdse!d203"
+      },
+      "email_user_app": {
+        "username": "automationuser7",
+        "password": "Gdse!d302"
+      },
+      "email_user_app_new": {
+        "username": "automationuser7",
+        "password": "Gdse!d203"
+      },
+      "sms_user_app": {
+        "username": "automationuser8",
+        "password": "Gdse!d302"
+      },
+      "sms_user_app_new": {
+        "username": "automationuser8",
+        "password": "Gdse!d203"
+      },
+      "totp_user_app": {
+        "username": "automationuser9",
+        "password": "Gdse!d302"
+      },
+      "totp_user_app_new": {
+        "username": "automationuser9",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user_app": {
+        "username": "automationuser10",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_app_new": {
+        "username": "automationuser10",
+        "password": "Gdse!d203"
+      },
+      "ad_user_dn": "CN=Automation user1,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_user_dn": "CN=Automation user2,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_user_dn": "CN=Automation user3,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_user_dn": "CN=Automation user4,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_user_dn": "CN=Automation user5,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "ad_app_user_dn": "CN=Automation user6,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_app_user_dn": "CN=Automation user7,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_app_user_dn": "CN=Automation user8,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_app_user_dn": "CN=Automation user9,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_app_user_dn": "CN=Automation user10,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_authenticator_code": "QW6WM74VMTKZPGBVYX5W63JS",
+      "totp_authenticator_code_app": "HSSM7WSQSVUASB3NARA4ZJTZ",
+      "Akamai_mfa_authenticator_code": "HLKGJRDRCTW6UOK23POSN7NIAXM422GTH6Z7WRRNWB3WN2346ENQ",
+      "Akamai_mfa_authenticator_code_app": "OVU3HJ7HBKI2GBYEIKCL5YV5MKVOY6CJPT4KNXFQGAVL3S4LYYVA"
+    },
+    "Password_reset_admin": {
+      "idp_url_mfa_disabled": "https://pwdresetidpadmin.login.stage.akamai-access.com",
+      "idp_url_mfa_enabled": "https://dndpwdresetwithmfaadmin.login.stage.akamai-access.com",
+      "idp_name_mfa_disabled": "DND_pwd_reset_without_mfa_admin",
+      "idp_name_mfa_enabled": "DND_pwd_reset_with_mfa_admin",
+      "static_app_mfa_disabled": "https://dndpwdresetappadmin.stage.akamai-access.com",
+      "static_app_mfa_enabled": "https://dndpwdresetappwithmfaadmin.stage.akamai-access.com",
+      "app_name_mfa_disabled": "DND_pwd_reset_app_admin",
+      "app_name_mfa_enabled": "DND_pwd_reset_app_with_mfa_admin",
+      "directory_list": [
+        "Cloud Directory","DND_eaaroot"
+      ],
+      "AD_user": {
+        "username": "adminautouser1",
+        "password": "Gdse!d302"
+      },
+      "AD_user_new": {
+        "username": "adminautouser1",
+        "password": "Gdse!d203"
+      },
+      "email_user": {
+        "username": "adminautouser2",
+        "password": "Gdse!d302"
+      },
+      "email_user_new": {
+        "username": "adminautouser2",
+        "password": "Gdse!d203"
+      },
+      "sms_user": {
+        "username": "adminautouser3",
+        "password": "Gdse!d302"
+      },
+      "sms_user_new": {
+        "username": "adminautouser3",
+        "password": "Gdse!d203"
+      },
+      "totp_user": {
+        "username": "adminautouser4",
+        "password": "Gdse!d302"
+      },
+      "totp_user_new": {
+        "username": "adminautouser4",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user": {
+        "username": "adminautouser5",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_new": {
+        "username": "adminautouser5",
+        "password": "Gdse!d203"
+      },
+      "AD_user_app": {
+        "username": "adminautouser6",
+        "password": "Gdse!d302"
+      },
+      "AD_user_app_new": {
+        "username": "adminautouser6",
+        "password": "Gdse!d203"
+      },
+      "email_user_app": {
+        "username": "adminautouser7",
+        "password": "Gdse!d302"
+      },
+      "email_user_app_new": {
+        "username": "adminautouser7",
+        "password": "Gdse!d203"
+      },
+      "sms_user_app": {
+        "username": "adminautouser8",
+        "password": "Gdse!d302"
+      },
+      "sms_user_app_new": {
+        "username": "adminautouser8",
+        "password": "Gdse!d203"
+      },
+      "totp_user_app": {
+        "username": "adminautouser9",
+        "password": "Gdse!d302"
+      },
+      "totp_user_app_new": {
+        "username": "adminautouser9",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user_app": {
+        "username": "adminautouser10",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_app_new": {
+        "username": "adminautouser10",
+        "password": "Gdse!d203"
+      },
+      "ad_user_dn": "CN=adminauto user1,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_user_dn": "CN=adminauto user2,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_user_dn": "CN=adminauto user3,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_user_dn": "CN=adminauto user4,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_user_dn": "CN=adminauto user5,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "ad_app_user_dn": "CN=adminauto user6,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_app_user_dn": "CN=adminauto user7,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_app_user_dn": "CN=adminauto user8,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_app_user_dn": "CN=adminauto user9,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_app_user_dn": "CN=adminauto user10,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_authenticator_code": "MQLKBU6K7M42LIIBXOID6CLO",
+      "totp_authenticator_code_app": "SKPKOBCYI6U7VBB2A7CZMEAV",
+      "Akamai_mfa_authenticator_code": "WXCVLVVDFATTQFG6ARDD5NECRPWGVN3CBZO6N3MFAJTWX7TVMA4Q",
+      "Akamai_mfa_authenticator_code_app": "CMLSY4WLUWHQXVAZHVFZCANGFGAYKDS37ZAAZS5WNAV3C6EPW36A"
+
+    },
+    "Password_reset_production": {
+      "idp_url_mfa_disabled": "https://dndpwdresetwithoutmfaprod.login.go.sohacloud.net",
+      "idp_url_mfa_enabled": "https://dndpwdresetwithmfaprof.login.go.sohacloud.net",
+      "idp_name_mfa_disabled": "DND_pwd_reset_without_mfa_prod",
+      "idp_name_mfa_enabled": "DND_pwd_reset_with_mfa",
+      "static_app_mfa_disabled": "https://dndpwdresetappwithoutmfaprod.go.sohacloud.net",
+      "static_app_mfa_enabled": "https://dndpwdresetappwithmfaprod.go.sohacloud.net",
+      "app_name_mfa_disabled": "DND_pwd_reset_app_without_mfa_prod",
+      "app_name_mfa_enabled": "DND_pwd_reset_app_with_mfa",
+      "directory_list": [
+        "Cloud Directory","DND_eaaroot"
+      ],
+      "AD_user": {
+        "username": "prodautouser1",
+        "password": "Gdse!d302"
+      },
+      "AD_user_new": {
+        "username": "prodautouser1",
+        "password": "Gdse!d203"
+      },
+      "email_user": {
+        "username": "prodautouser2",
+        "password": "Gdse!d302"
+      },
+      "email_user_new": {
+        "username": "prodautouser2",
+        "password": "Gdse!d203"
+      },
+      "sms_user": {
+        "username": "prodautouser3",
+        "password": "Gdse!d302"
+      },
+      "sms_user_new": {
+        "username": "prodautouser3",
+        "password": "Gdse!d203"
+      },
+      "totp_user": {
+        "username": "prodautouser4",
+        "password": "Gdse!d302"
+      },
+      "totp_user_new": {
+        "username": "prodautouser4",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user": {
+        "username": "prodautouser5",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_new": {
+        "username": "prodautouser5",
+        "password": "Gdse!d203"
+      },
+      "AD_user_app": {
+        "username": "prodautouser6",
+        "password": "Gdse!d302"
+      },
+      "AD_user_app_new": {
+        "username": "prodautouser6",
+        "password": "Gdse!d203"
+      },
+      "email_user_app": {
+        "username": "prodautouser7",
+        "password": "Gdse!d302"
+      },
+      "email_user_app_new": {
+        "username": "prodautouser7",
+        "password": "Gdse!d203"
+      },
+      "sms_user_app": {
+        "username": "prodautouser8",
+        "password": "Gdse!d302"
+      },
+      "sms_user_app_new": {
+        "username": "prodautouser8",
+        "password": "Gdse!d203"
+      },
+      "totp_user_app": {
+        "username": "prodautouser9",
+        "password": "Gdse!d302"
+      },
+      "totp_user_app_new": {
+        "username": "prodautouser9",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user_app": {
+        "username": "prodautouser10",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_app_new": {
+        "username": "prodautouser10",
+        "password": "Gdse!d203"
+      },
+      "ad_user_dn": "CN=prodauto user1,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_user_dn": "CN=prodauto user2,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_user_dn": "CN=prodauto user3,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_user_dn": "CN=prodauto user4,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_user_dn": "CN=prodauto user5,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "ad_app_user_dn": "CN=prodauto user6,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_app_user_dn": "CN=prodauto user7,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_app_user_dn": "CN=prodauto user8,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_app_user_dn": "CN=prodauto user9,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_app_user_dn": "CN=prodauto user10,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_authenticator_code": "UXOYGXRTP2NLQLKNGBHY6NP7",
+      "totp_authenticator_code_app": "2GILUVLECBVN2L4VZMHGTA7R",
+      "Akamai_mfa_authenticator_code": "V363HASIWOTKULK542TYIGAPC3CGZDS73CSFX7FSKP7XVV657T4Q",
+      "Akamai_mfa_authenticator_code_app": "RTKP5TTEXSBGBBQDR3TP655XBIOVAWYFOGBBYFXUUGOSAB53MR2Q"
+
+    },
+    "Password_reset_regression": {
+      "idp_url_mfa_disabled": "https://dndpwdresetwithoutmfareg.login.go.regression.akamai-access.com",
+      "idp_url_mfa_enabled": "https://dndpwdresetwithmfareg.login.go.regression.akamai-access.com",
+      "idp_name_mfa_disabled": "DND_pwd_reset_without_mfa_reg",
+      "idp_name_mfa_enabled": "DND_pwd_reset_with_mfa_reg",
+      "static_app_mfa_disabled": "https://dndpwdresetappwithoutmfareg.go.regression.akamai-access.com",
+      "static_app_mfa_enabled": "https://dndpwdresetappmfareg.go.regression.akamai-access.com",
+      "app_name_mfa_disabled": "DND_pwd_reset_app_without_mfa_reg",
+      "app_name_mfa_enabled": "DND_pwd_reset_app_with_mfa_reg",
+      "directory_list": [
+        "Cloud Directory","DND_eaaroot"
+      ],
+      "AD_user": {
+        "username": "regautouser1",
+        "password": "Gdse!d302"
+      },
+      "AD_user_new": {
+        "username": "regautouser1",
+        "password": "Gdse!d203"
+      },
+      "email_user": {
+        "username": "regautouser2",
+        "password": "Gdse!d302"
+      },
+      "email_user_new": {
+        "username": "regautouser2",
+        "password": "Gdse!d203"
+      },
+      "sms_user": {
+        "username": "regautouser3",
+        "password": "Gdse!d302"
+      },
+      "sms_user_new": {
+        "username": "regautouser3",
+        "password": "Gdse!d203"
+      },
+      "totp_user": {
+        "username": "regautouser4",
+        "password": "Gdse!d302"
+      },
+      "totp_user_new": {
+        "username": "regautouser4",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user": {
+        "username": "regautouser5",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_new": {
+        "username": "regautouser5",
+        "password": "Gdse!d203"
+      },
+      "AD_user_app": {
+        "username": "regautouser6",
+        "password": "Gdse!d302"
+      },
+      "AD_user_app_new": {
+        "username": "regautouser6",
+        "password": "Gdse!d203"
+      },
+      "email_user_app": {
+        "username": "regautouser7",
+        "password": "Gdse!d302"
+      },
+      "email_user_app_new": {
+        "username": "regautouser7",
+        "password": "Gdse!d203"
+      },
+      "sms_user_app": {
+        "username": "regautouser8",
+        "password": "Gdse!d302"
+      },
+      "sms_user_app_new": {
+        "username": "regautouser8",
+        "password": "Gdse!d203"
+      },
+      "totp_user_app": {
+        "username": "regautouser9",
+        "password": "Gdse!d302"
+      },
+      "totp_user_app_new": {
+        "username": "regautouser9",
+        "password": "Gdse!d203"
+      },
+      "akamai_mfa_user_app": {
+        "username": "regautouser10",
+        "password": "Gdse!d302"
+      },
+      "akamai_mfa_user_app_new": {
+        "username": "regautouser10",
+        "password": "Gdse!d203"
+      },
+      "ad_user_dn": "CN=regauto user1,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_user_dn": "CN=regauto user2,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_user_dn": "CN=regauto user3,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_user_dn": "CN=regauto user4,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_user_dn": "CN=regauto user5,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "ad_app_user_dn": "CN=regauto user6,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "email_app_user_dn": "CN=regauto user7,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "sms_app_user_dn": "CN=regauto user8,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_app_user_dn": "CN=regauto user9,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "akamai_mfa_app_user_dn": "CN=regauto user10,OU=Sandeep_Functional,DC=eaaroot,DC=live",
+      "totp_authenticator_code": "MIPO7W53JYXGBXFMOYJVLRK6",
+      "totp_authenticator_code_app": "AZ6W7PHUFMNG5ZMKNIZ2TVU4",
+      "Akamai_mfa_authenticator_code": "LVOCWRT3GHEU466E2F2QFTCC5JJ33MDE2UOW4IQLQ4PGJW35L3KQ",
+      "Akamai_mfa_authenticator_code_app": "Y6WXTZBOLBSK43DGXUTFHGBLY3HQYCQE3EW2BENSPUFWHER2ECFQ"
+    },
+    "Saas-saml-jenkins-app-prod": {
+      "bookmark_url": "http://198.18.241.194:8090/",
+      "jenkins_user_credential": {
+        "username": "akamai",
+        "password": "Akamai123!"
+      },
+      "directory_list": [
+        "Cloud Directory",
+        "dnd_scim-demo-ssahoo-1"
+      ],
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "AuthNrequest_file": "AuthNrequest.xml",
+      "sp": {
+        "acs_url": "http://198.18.241.194:8090/securityRealm/moSamlAuth",
+        "default_relay_state": null,
+        "encr_algo": "aes256-cbc",
+        "entity_id": "http://198.18.241.194:8090",
+        "force_auth": false,
+        "req_bind": "redirect",
+        "req_verify": false,
+        "resp_encr": false,
+        "verify_sign_cert": "-----BEGIN CERTIFICATE-----\nMIIDSjCCAjKgAwIBAgIIM/oJNFQ+c6owDQYJKoZIhvcNAQELBQAwZTELMAkGA1UE\nBhMCSU4xDTALBgNVBAcTBFB1bmUxEDAOBgNVBAsTB0plbmtpbnMxEzARBgNVBAMT\nCm1pbmlPcmFuZ2UxIDAeBgkqhkiG9w0BCQEWEWluZm9AeGVjdXJpZnkuY29tMB4X\nDTIzMDUxNzEyMDc0NVoXDTI0MDcxNTEyMDc0NVowZTELMAkGA1UEBhMCSU4xDTAL\nBgNVBAcTBFB1bmUxEDAOBgNVBAsTB0plbmtpbnMxEzARBgNVBAMTCm1pbmlPcmFu\nZ2UxIDAeBgkqhkiG9w0BCQEWEWluZm9AeGVjdXJpZnkuY29tMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlkYS2nJBqZFcbfKHYZ9Vf7p4IjUzeTu8aQrw\n/uvSrLFbvN0DBov/VeBHeKJRjP7RrBUPmu94GbGeLhLe5nyC3Ic45vTwDqt7F9RD\nHaAx3NdEAvsYjVWYbj9mmf8ygOUlHGKzWrfQMW+RzN134jkVhmHsxwCB4sDDPLEU\nUclQ/Jz/ORnVGS87AQ/Xu4oALzeC+YM2/4yB5BTe0eUiIBxRzrdWK7B/dt/Akm3x\nGVYqtiyXJDV0wub1HeCpraR9oBIXHiQ9nXruETlCf9ulYdDcj5QOcouXZ1epYSnX\nUL20bWzpjoW1vvBTanMdN2Og+8IzDVQkJnJDHpNfh1YBBh7XDwIDAQABMA0GCSqG\nSIb3DQEBCwUAA4IBAQA3TcPX23MeQWUzhvvYq98HZtgQQysc77p3uMDJFWfkIMVV\nQVC5wAzqXYvStdgguyvuS2mJmm8KXx/mTbMzZCaN4E+w+OU9Rfy6XwpMgFnrWkJB\nIYmyDdNj5HjnbcW6/6OJRZPfm0z7U1jamN1XFHDMItGECEomODjBjc4ZtNYLO724\nehdPyTBtJa6xa8AG4WYXIyfnfs76m7jcEIqqpyp6syxN5YUcnAWOz/HARYNDF4yr\neNyH2Fdap2/Mg+8lP7wfWs3iPlEY/NFUB51XBp/WPE81nr51NTKYagOHBY1Kc9LY\nGHjAhdm5ARk3NmQD4EppwXAX8JXZjSP6taeC35qF\n-----END CERTIFICATE-----",
+        "slo_bind": "post",
+        "slo_req_verify": true,
+        "slo_url": ""
+      },
+      "idp": {
+        "resp_bind": "post",
+        "self_signed": false,
+        "sign_algo": "SHA256",
+        "ecp_enable": false,
+        "ecp_resp_signature": false,
+        "sign_cert": "-----BEGIN CERTIFICATE-----\nMIIGFjCCBP6gAwIBAgITLgAASLD0fBKYcZjZewAGAABIsDANBgkqhkiG9w0BAQsF\nADBRMRQwEgYKCZImiZPyLGQBGRYEbGl2ZTEWMBQGCgmSJomT8ixkARkWBnNoeXJ1\nczEhMB8GA1UEAxMYc2h5cnVzLVNRQUlTU1VJTkdDQS1DQS0xMB4XDTI0MDUyNDA1\nNDAxNVoXDTI1MDQyOTE3MDQxM1owgYQxCzAJBgNVBAYTAklOMQswCQYDVQQIEwJN\nSDENMAsGA1UEBxMEUHVuZTEPMA0GA1UEChMGQWthbWFpMQwwCgYDVQQLEwNFQUEx\nFDASBgNVBAMTC2ppcmEtc2VydmVyMSQwIgYJKoZIhvcNAQkBFhVqaXJhc2VydmVy\nQGFrYW1haS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDK5aQp\n7bIB4a+nVW+JXmmbhXoUwfr2WvcKkT+sXQ3j+XLiFn+tU6fNnYHYzlbIxYtj9hLq\nOsOPIUPdNOA/LMidui3NBnuAAq0zj99XZY8G4lejNRVDWY6LP6yzIDMSPMgQxp1R\n2f2uA49RBicZPx2Pm0chMOVw/u0XHhl916jR4x4+Of+G5JkLpjf0Ycf06+Q71Kxf\nYnaqqhjaaKsPl1/2gtNEkszNX6I7Xgjm65ZHMGbMiYYT8sKHqmRH8pz3MMIAHbvL\nagyeH/UmloadpfaP/qUX0MqpgRG+Pqw6INg0kpidi4X2Hk5wo7C0ZahrNVyxg+7I\nHr5KDNZ3fa9ePeN9AgMBAAGjggKxMIICrTAdBgNVHQ4EFgQUJ12DiTbt4tbfsbpM\nWanQilxNQ1gwHwYDVR0jBBgwFoAUCfS3Rj6kRS/fhEC0494dvPhvTCUwgd4GA1Ud\nHwSB1jCB0zCB0KCBzaCByoaBx2xkYXA6Ly8vQ049c2h5cnVzLVNRQUlTU1VJTkdD\nQS1DQS0xKDYpLENOPXNxYWlzc3VpbmdjYSxDTj1DRFAsQ049UHVibGljJTIwS2V5\nJTIwU2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJhdGlvbixEQz1zaHly\ndXMsREM9bGl2ZT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2U/b2JqZWN0\nQ2xhc3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnQwgfQGCCsGAQUFBwEBBIHnMIHkMIG3\nBggrBgEFBQcwAoaBqmxkYXA6Ly8vQ049c2h5cnVzLVNRQUlTU1VJTkdDQS1DQS0x\nLENOPUFJQSxDTj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxD\nTj1Db25maWd1cmF0aW9uLERDPXNoeXJ1cyxEQz1saXZlP2NBQ2VydGlmaWNhdGU/\nYmFzZT9vYmplY3RDbGFzcz1jZXJ0aWZpY2F0aW9uQXV0aG9yaXR5MCgGCCsGAQUF\nBzABhhxodHRwOi8vb2NzcC5zaHlydXMubGl2ZS9vY3NwMAsGA1UdDwQEAwIFoDA+\nBgkrBgEEAYI3FQcEMTAvBicrBgEEAYI3FQiDg9J2hPHBPYGZlRCGpLF+h+33Q4FJ\nhYzYNoLir3kCAWQCAQ0wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMCcG\nCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwDQYJKoZIhvcN\nAQELBQADggEBAAU+FfwxwqHpuCPb6XI02LbsxT3HmmQ9hLquI/o7sMjMthihCVj6\nv0HgkgurWTl4xhrMN0Jx5VVX+sfRKproPJhJdueVa2XjwpzNNrY93nusZogRLBc7\n6p7PikCwd6pO0/2fpdJxQdujkPA0Dy/2CG4koooPvvNCMejhIv50InrMqVXrLjK9\n9l3XER9AhYz2puaF8vvHpFMipXE4aGe7lAiAHLM5VHEWYdeJ6/65f/EUVuaSdpJo\nDY0YR7LVS37iOR3k8VfSRNzKtW1Q9wytGtMLHPA8rkz3WvtxDWvGzVi3Ia+WQZ8o\nWcAZ4iV4T/ZkW6LUlCMYtdCYvCU2CPoph7A=\n-----END CERTIFICATE-----",
+        "sign_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDK5aQp7bIB4a+n\nVW+JXmmbhXoUwfr2WvcKkT+sXQ3j+XLiFn+tU6fNnYHYzlbIxYtj9hLqOsOPIUPd\nNOA/LMidui3NBnuAAq0zj99XZY8G4lejNRVDWY6LP6yzIDMSPMgQxp1R2f2uA49R\nBicZPx2Pm0chMOVw/u0XHhl916jR4x4+Of+G5JkLpjf0Ycf06+Q71KxfYnaqqhja\naKsPl1/2gtNEkszNX6I7Xgjm65ZHMGbMiYYT8sKHqmRH8pz3MMIAHbvLagyeH/Um\nloadpfaP/qUX0MqpgRG+Pqw6INg0kpidi4X2Hk5wo7C0ZahrNVyxg+7IHr5KDNZ3\nfa9ePeN9AgMBAAECggEADsrTPyNPOQflMIPwD8nMVURT9DN4QoG7RQ/13nEiVB6Z\nm5YcVNymfT0gfFf+x8BvOyhzlJQYMdUxB22Vc8WmEqnCMRJp6plHW1z/4XVMCipy\nTTnPhQuAcvJ/ese8MXYw99gjHBaSgh9MUZHrQ9HwK8ocU3UnJSfQzUCqhxwz+Kk/\nC7E28H8Q+Ks8ZWjTQnqYzYi8S9Lfdo9DUtGXcm5bMI+ySao0o4m4ZhSxH6gnTT9i\nlsWRN6aM3UwVwYHWjn+1BYS0hsiS9aWOwO4Nbp/DLLKmrtzfPpRUMcujtQTELYEX\nyRFUKE1cGHXRC/KOTNDedcRonsjcCbt6qXaWHzk8QQKBgQDpHsJgheQT/i6dOn8c\nJW8IwxB7/+9Ccnaw43lptrJUWzokaPWKyIGXAlVALk/EHIjJYwfS/qS0/58VCPn0\nFBzWoM08LcpVanM/rVsiY4mgdBCY7RQ7j+xSo/YDX7lr2mvGS03CWFHqiu7BCJa2\npzytGeKwp//7cwUdF5dwl+YXSQKBgQDez4N7VfpVRj/utAiRs4b39/zHAbtAkrXS\ny+pPz/Ujqv0XXvaceVQimAZcr/e2BCX2c62ihALoWxgcsHkjdR6pMLcnPOiYwdho\nZqaHqPR8BK+bkfQPnIz9Ws09jYvmY/Esbq+ABQRplhfeidxTa4DsGjVr0WMVbUqR\nyGsko3GmlQKBgDeksurNKqqnAkNfQhXazYz+2oFujpKCtdf1A/b6t8gw2kj0kJ9m\nyp/b27NtGncKBJBlRenUBEZ7uWIQ+XCMGHIWgcZ6e5A1z3qEi3tC3QfijE+kTy8E\nZHk5T7BwedbHlPAI62+XGz5rmR+USD0i3/XFdvmJsC05wB+4kNo8N5yZAoGBAI05\nFEphZYkVPMKMo/3Nv5d+PF7azxgPpWVV0E8ELYmNAFwG2eK12EkQ+L9Y3XYlzPYX\nvg+LAtjJnE/a3v1FZ8ivUvdw2LCx9Pu/TIAh68yLn87IRNx8SrTvD7Wa+Phvklaq\nVVycUX6nHrvzv420TwPXXNLY5aeYHTKnyJlxa0C9AoGAPYdGa7GBsxVpmlyBWjLJ\nDoA295+XAM6Ep986xw1RLtSMiBa4gNQz7o/YCExHCzAxMyO3wnnRuN7QCUhVTcoc\nmXr2z/FGuGY8GUzvby08j8rUuTbsNygD9tRS9drxF8aRTaXhkFgc1oxHYRzDwKGK\nlMWG3OwsjujSxUOxVjX8gmo=\n-----END PRIVATE KEY-----"
+      },
+      "subject": {
+        "fmt": "email",
+        "src": "eaa.userName"
+      },
+      "attrmap": [],
+      "header_value": {
+        "Content-Type": "application/xml"
+      },
+      "response_signature_value_path": ".//{http://www.w3.org/2000/09/xmldsig#}SignatureValue",
+      "response_name_id_path": ".//{urn:oasis:names:tc:SAML:2.0:assertion}NameID",
+      "SOAP_binding_tag": ".//*[@Binding='urn:oasis:names:tc:SAML:2.0:bindings:SOAP']",
+      "sp_NameID_format_tag": ".//{urn:oasis:names:tc:SAML:2.0:metadata}NameIDFormat",
+      "attribute_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}Attribute",
+      "attribute_value_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}AttributeValue",
+      "invalid_user": {
+        "username": "samlinvaliduser@ztcore.com",
+        "password": "Saml@123"
+      }
+    },
+    "Saas-saml-jenkins-app-reg": {
+      "bookmark_url": "http://198.18.241.205:8090/",
+      "jenkins_user_credential": {
+        "username": "akamai",
+        "password": "Akamai123!"
+      },
+      "directory_list": [
+        "Cloud Directory",
+        "dnd_scim-demo-ssahoo-1"
+      ],
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "AuthNrequest_file": "AuthNrequest.xml",
+      "sp": {
+        "acs_url": "http://198.18.241.205:8090/securityRealm/moSamlAuth",
+        "default_relay_state": null,
+        "encr_algo": "aes256-cbc",
+        "entity_id": "http://198.18.241.205:8090",
+        "force_auth": false,
+        "req_bind": "redirect",
+        "req_verify": false,
+        "resp_encr": false,
+        "verify_sign_cert": "-----BEGIN CERTIFICATE-----\nMIIDSjCCAjKgAwIBAgIIM/oJNFQ+c6owDQYJKoZIhvcNAQELBQAwZTELMAkGA1UE\nBhMCSU4xDTALBgNVBAcTBFB1bmUxEDAOBgNVBAsTB0plbmtpbnMxEzARBgNVBAMT\nCm1pbmlPcmFuZ2UxIDAeBgkqhkiG9w0BCQEWEWluZm9AeGVjdXJpZnkuY29tMB4X\nDTIzMDUxNzEyMDc0NVoXDTI0MDcxNTEyMDc0NVowZTELMAkGA1UEBhMCSU4xDTAL\nBgNVBAcTBFB1bmUxEDAOBgNVBAsTB0plbmtpbnMxEzARBgNVBAMTCm1pbmlPcmFu\nZ2UxIDAeBgkqhkiG9w0BCQEWEWluZm9AeGVjdXJpZnkuY29tMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlkYS2nJBqZFcbfKHYZ9Vf7p4IjUzeTu8aQrw\n/uvSrLFbvN0DBov/VeBHeKJRjP7RrBUPmu94GbGeLhLe5nyC3Ic45vTwDqt7F9RD\nHaAx3NdEAvsYjVWYbj9mmf8ygOUlHGKzWrfQMW+RzN134jkVhmHsxwCB4sDDPLEU\nUclQ/Jz/ORnVGS87AQ/Xu4oALzeC+YM2/4yB5BTe0eUiIBxRzrdWK7B/dt/Akm3x\nGVYqtiyXJDV0wub1HeCpraR9oBIXHiQ9nXruETlCf9ulYdDcj5QOcouXZ1epYSnX\nUL20bWzpjoW1vvBTanMdN2Og+8IzDVQkJnJDHpNfh1YBBh7XDwIDAQABMA0GCSqG\nSIb3DQEBCwUAA4IBAQA3TcPX23MeQWUzhvvYq98HZtgQQysc77p3uMDJFWfkIMVV\nQVC5wAzqXYvStdgguyvuS2mJmm8KXx/mTbMzZCaN4E+w+OU9Rfy6XwpMgFnrWkJB\nIYmyDdNj5HjnbcW6/6OJRZPfm0z7U1jamN1XFHDMItGECEomODjBjc4ZtNYLO724\nehdPyTBtJa6xa8AG4WYXIyfnfs76m7jcEIqqpyp6syxN5YUcnAWOz/HARYNDF4yr\neNyH2Fdap2/Mg+8lP7wfWs3iPlEY/NFUB51XBp/WPE81nr51NTKYagOHBY1Kc9LY\nGHjAhdm5ARk3NmQD4EppwXAX8JXZjSP6taeC35qF\n-----END CERTIFICATE-----",
+        "slo_bind": "post",
+        "slo_req_verify": true,
+        "slo_url": ""
+      },
+      "idp": {
+        "resp_bind": "post",
+        "self_signed": false,
+        "sign_algo": "SHA256",
+        "ecp_enable": false,
+        "ecp_resp_signature": false,
+        "sign_cert": "-----BEGIN CERTIFICATE-----\nMIIGFjCCBP6gAwIBAgITLgAASLD0fBKYcZjZewAGAABIsDANBgkqhkiG9w0BAQsF\nADBRMRQwEgYKCZImiZPyLGQBGRYEbGl2ZTEWMBQGCgmSJomT8ixkARkWBnNoeXJ1\nczEhMB8GA1UEAxMYc2h5cnVzLVNRQUlTU1VJTkdDQS1DQS0xMB4XDTI0MDUyNDA1\nNDAxNVoXDTI1MDQyOTE3MDQxM1owgYQxCzAJBgNVBAYTAklOMQswCQYDVQQIEwJN\nSDENMAsGA1UEBxMEUHVuZTEPMA0GA1UEChMGQWthbWFpMQwwCgYDVQQLEwNFQUEx\nFDASBgNVBAMTC2ppcmEtc2VydmVyMSQwIgYJKoZIhvcNAQkBFhVqaXJhc2VydmVy\nQGFrYW1haS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDK5aQp\n7bIB4a+nVW+JXmmbhXoUwfr2WvcKkT+sXQ3j+XLiFn+tU6fNnYHYzlbIxYtj9hLq\nOsOPIUPdNOA/LMidui3NBnuAAq0zj99XZY8G4lejNRVDWY6LP6yzIDMSPMgQxp1R\n2f2uA49RBicZPx2Pm0chMOVw/u0XHhl916jR4x4+Of+G5JkLpjf0Ycf06+Q71Kxf\nYnaqqhjaaKsPl1/2gtNEkszNX6I7Xgjm65ZHMGbMiYYT8sKHqmRH8pz3MMIAHbvL\nagyeH/UmloadpfaP/qUX0MqpgRG+Pqw6INg0kpidi4X2Hk5wo7C0ZahrNVyxg+7I\nHr5KDNZ3fa9ePeN9AgMBAAGjggKxMIICrTAdBgNVHQ4EFgQUJ12DiTbt4tbfsbpM\nWanQilxNQ1gwHwYDVR0jBBgwFoAUCfS3Rj6kRS/fhEC0494dvPhvTCUwgd4GA1Ud\nHwSB1jCB0zCB0KCBzaCByoaBx2xkYXA6Ly8vQ049c2h5cnVzLVNRQUlTU1VJTkdD\nQS1DQS0xKDYpLENOPXNxYWlzc3VpbmdjYSxDTj1DRFAsQ049UHVibGljJTIwS2V5\nJTIwU2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJhdGlvbixEQz1zaHly\ndXMsREM9bGl2ZT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2U/b2JqZWN0\nQ2xhc3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnQwgfQGCCsGAQUFBwEBBIHnMIHkMIG3\nBggrBgEFBQcwAoaBqmxkYXA6Ly8vQ049c2h5cnVzLVNRQUlTU1VJTkdDQS1DQS0x\nLENOPUFJQSxDTj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxD\nTj1Db25maWd1cmF0aW9uLERDPXNoeXJ1cyxEQz1saXZlP2NBQ2VydGlmaWNhdGU/\nYmFzZT9vYmplY3RDbGFzcz1jZXJ0aWZpY2F0aW9uQXV0aG9yaXR5MCgGCCsGAQUF\nBzABhhxodHRwOi8vb2NzcC5zaHlydXMubGl2ZS9vY3NwMAsGA1UdDwQEAwIFoDA+\nBgkrBgEEAYI3FQcEMTAvBicrBgEEAYI3FQiDg9J2hPHBPYGZlRCGpLF+h+33Q4FJ\nhYzYNoLir3kCAWQCAQ0wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMCcG\nCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwDQYJKoZIhvcN\nAQELBQADggEBAAU+FfwxwqHpuCPb6XI02LbsxT3HmmQ9hLquI/o7sMjMthihCVj6\nv0HgkgurWTl4xhrMN0Jx5VVX+sfRKproPJhJdueVa2XjwpzNNrY93nusZogRLBc7\n6p7PikCwd6pO0/2fpdJxQdujkPA0Dy/2CG4koooPvvNCMejhIv50InrMqVXrLjK9\n9l3XER9AhYz2puaF8vvHpFMipXE4aGe7lAiAHLM5VHEWYdeJ6/65f/EUVuaSdpJo\nDY0YR7LVS37iOR3k8VfSRNzKtW1Q9wytGtMLHPA8rkz3WvtxDWvGzVi3Ia+WQZ8o\nWcAZ4iV4T/ZkW6LUlCMYtdCYvCU2CPoph7A=\n-----END CERTIFICATE-----",
+        "sign_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDK5aQp7bIB4a+n\nVW+JXmmbhXoUwfr2WvcKkT+sXQ3j+XLiFn+tU6fNnYHYzlbIxYtj9hLqOsOPIUPd\nNOA/LMidui3NBnuAAq0zj99XZY8G4lejNRVDWY6LP6yzIDMSPMgQxp1R2f2uA49R\nBicZPx2Pm0chMOVw/u0XHhl916jR4x4+Of+G5JkLpjf0Ycf06+Q71KxfYnaqqhja\naKsPl1/2gtNEkszNX6I7Xgjm65ZHMGbMiYYT8sKHqmRH8pz3MMIAHbvLagyeH/Um\nloadpfaP/qUX0MqpgRG+Pqw6INg0kpidi4X2Hk5wo7C0ZahrNVyxg+7IHr5KDNZ3\nfa9ePeN9AgMBAAECggEADsrTPyNPOQflMIPwD8nMVURT9DN4QoG7RQ/13nEiVB6Z\nm5YcVNymfT0gfFf+x8BvOyhzlJQYMdUxB22Vc8WmEqnCMRJp6plHW1z/4XVMCipy\nTTnPhQuAcvJ/ese8MXYw99gjHBaSgh9MUZHrQ9HwK8ocU3UnJSfQzUCqhxwz+Kk/\nC7E28H8Q+Ks8ZWjTQnqYzYi8S9Lfdo9DUtGXcm5bMI+ySao0o4m4ZhSxH6gnTT9i\nlsWRN6aM3UwVwYHWjn+1BYS0hsiS9aWOwO4Nbp/DLLKmrtzfPpRUMcujtQTELYEX\nyRFUKE1cGHXRC/KOTNDedcRonsjcCbt6qXaWHzk8QQKBgQDpHsJgheQT/i6dOn8c\nJW8IwxB7/+9Ccnaw43lptrJUWzokaPWKyIGXAlVALk/EHIjJYwfS/qS0/58VCPn0\nFBzWoM08LcpVanM/rVsiY4mgdBCY7RQ7j+xSo/YDX7lr2mvGS03CWFHqiu7BCJa2\npzytGeKwp//7cwUdF5dwl+YXSQKBgQDez4N7VfpVRj/utAiRs4b39/zHAbtAkrXS\ny+pPz/Ujqv0XXvaceVQimAZcr/e2BCX2c62ihALoWxgcsHkjdR6pMLcnPOiYwdho\nZqaHqPR8BK+bkfQPnIz9Ws09jYvmY/Esbq+ABQRplhfeidxTa4DsGjVr0WMVbUqR\nyGsko3GmlQKBgDeksurNKqqnAkNfQhXazYz+2oFujpKCtdf1A/b6t8gw2kj0kJ9m\nyp/b27NtGncKBJBlRenUBEZ7uWIQ+XCMGHIWgcZ6e5A1z3qEi3tC3QfijE+kTy8E\nZHk5T7BwedbHlPAI62+XGz5rmR+USD0i3/XFdvmJsC05wB+4kNo8N5yZAoGBAI05\nFEphZYkVPMKMo/3Nv5d+PF7azxgPpWVV0E8ELYmNAFwG2eK12EkQ+L9Y3XYlzPYX\nvg+LAtjJnE/a3v1FZ8ivUvdw2LCx9Pu/TIAh68yLn87IRNx8SrTvD7Wa+Phvklaq\nVVycUX6nHrvzv420TwPXXNLY5aeYHTKnyJlxa0C9AoGAPYdGa7GBsxVpmlyBWjLJ\nDoA295+XAM6Ep986xw1RLtSMiBa4gNQz7o/YCExHCzAxMyO3wnnRuN7QCUhVTcoc\nmXr2z/FGuGY8GUzvby08j8rUuTbsNygD9tRS9drxF8aRTaXhkFgc1oxHYRzDwKGK\nlMWG3OwsjujSxUOxVjX8gmo=\n-----END PRIVATE KEY-----"
+      },
+      "subject": {
+        "fmt": "email",
+        "src": "eaa.userName"
+      },
+      "attrmap": [],
+      "header_value": {
+        "Content-Type": "application/xml"
+      },
+      "response_signature_value_path": ".//{http://www.w3.org/2000/09/xmldsig#}SignatureValue",
+      "response_name_id_path": ".//{urn:oasis:names:tc:SAML:2.0:assertion}NameID",
+      "SOAP_binding_tag": ".//*[@Binding='urn:oasis:names:tc:SAML:2.0:bindings:SOAP']",
+      "sp_NameID_format_tag": ".//{urn:oasis:names:tc:SAML:2.0:metadata}NameIDFormat",
+      "attribute_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}Attribute",
+      "attribute_value_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}AttributeValue",
+      "invalid_user": {
+        "username": "samlinvaliduser@ztcore.com",
+        "password": "Saml@123"
+      }
+    },
+    "Saas-saml-jenkins-app-admin-alpha": {
+      "bookmark_url": "http://198.18.241.205:8080/",
+      "jenkins_user_credential": {
+        "username": "akamai",
+        "password": "Akamai123!"
+      },
+      "directory_list": [
+        "Cloud Directory",
+        "dnd_scim-demo-ssahoo-1"
+      ],
+      "idp_name": "createdfortestingpurpose-sso-willnotwork-Azure-1651901870",
+      "AuthNrequest_file": "AuthNrequest.xml",
+      "sp": {
+        "acs_url": "http://198.18.241.205:8080/securityRealm/moSamlAuth",
+        "default_relay_state": null,
+        "encr_algo": "aes256-cbc",
+        "entity_id": "http://198.18.241.205:8080",
+        "force_auth": false,
+        "req_bind": "redirect",
+        "req_verify": false,
+        "resp_encr": false,
+        "verify_sign_cert": "-----BEGIN CERTIFICATE-----\nMIIDSjCCAjKgAwIBAgIIM/oJNFQ+c6owDQYJKoZIhvcNAQELBQAwZTELMAkGA1UE\nBhMCSU4xDTALBgNVBAcTBFB1bmUxEDAOBgNVBAsTB0plbmtpbnMxEzARBgNVBAMT\nCm1pbmlPcmFuZ2UxIDAeBgkqhkiG9w0BCQEWEWluZm9AeGVjdXJpZnkuY29tMB4X\nDTIzMDUxNzEyMDc0NVoXDTI0MDcxNTEyMDc0NVowZTELMAkGA1UEBhMCSU4xDTAL\nBgNVBAcTBFB1bmUxEDAOBgNVBAsTB0plbmtpbnMxEzARBgNVBAMTCm1pbmlPcmFu\nZ2UxIDAeBgkqhkiG9w0BCQEWEWluZm9AeGVjdXJpZnkuY29tMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlkYS2nJBqZFcbfKHYZ9Vf7p4IjUzeTu8aQrw\n/uvSrLFbvN0DBov/VeBHeKJRjP7RrBUPmu94GbGeLhLe5nyC3Ic45vTwDqt7F9RD\nHaAx3NdEAvsYjVWYbj9mmf8ygOUlHGKzWrfQMW+RzN134jkVhmHsxwCB4sDDPLEU\nUclQ/Jz/ORnVGS87AQ/Xu4oALzeC+YM2/4yB5BTe0eUiIBxRzrdWK7B/dt/Akm3x\nGVYqtiyXJDV0wub1HeCpraR9oBIXHiQ9nXruETlCf9ulYdDcj5QOcouXZ1epYSnX\nUL20bWzpjoW1vvBTanMdN2Og+8IzDVQkJnJDHpNfh1YBBh7XDwIDAQABMA0GCSqG\nSIb3DQEBCwUAA4IBAQA3TcPX23MeQWUzhvvYq98HZtgQQysc77p3uMDJFWfkIMVV\nQVC5wAzqXYvStdgguyvuS2mJmm8KXx/mTbMzZCaN4E+w+OU9Rfy6XwpMgFnrWkJB\nIYmyDdNj5HjnbcW6/6OJRZPfm0z7U1jamN1XFHDMItGECEomODjBjc4ZtNYLO724\nehdPyTBtJa6xa8AG4WYXIyfnfs76m7jcEIqqpyp6syxN5YUcnAWOz/HARYNDF4yr\neNyH2Fdap2/Mg+8lP7wfWs3iPlEY/NFUB51XBp/WPE81nr51NTKYagOHBY1Kc9LY\nGHjAhdm5ARk3NmQD4EppwXAX8JXZjSP6taeC35qF\n-----END CERTIFICATE-----",
+        "slo_bind": "post",
+        "slo_req_verify": true,
+        "slo_url": ""
+      },
+      "idp": {
+        "resp_bind": "post",
+        "self_signed": false,
+        "sign_algo": "SHA256",
+        "ecp_enable": false,
+        "ecp_resp_signature": false,
+        "sign_cert": "-----BEGIN CERTIFICATE-----\nMIIGFjCCBP6gAwIBAgITLgAASLD0fBKYcZjZewAGAABIsDANBgkqhkiG9w0BAQsF\nADBRMRQwEgYKCZImiZPyLGQBGRYEbGl2ZTEWMBQGCgmSJomT8ixkARkWBnNoeXJ1\nczEhMB8GA1UEAxMYc2h5cnVzLVNRQUlTU1VJTkdDQS1DQS0xMB4XDTI0MDUyNDA1\nNDAxNVoXDTI1MDQyOTE3MDQxM1owgYQxCzAJBgNVBAYTAklOMQswCQYDVQQIEwJN\nSDENMAsGA1UEBxMEUHVuZTEPMA0GA1UEChMGQWthbWFpMQwwCgYDVQQLEwNFQUEx\nFDASBgNVBAMTC2ppcmEtc2VydmVyMSQwIgYJKoZIhvcNAQkBFhVqaXJhc2VydmVy\nQGFrYW1haS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDK5aQp\n7bIB4a+nVW+JXmmbhXoUwfr2WvcKkT+sXQ3j+XLiFn+tU6fNnYHYzlbIxYtj9hLq\nOsOPIUPdNOA/LMidui3NBnuAAq0zj99XZY8G4lejNRVDWY6LP6yzIDMSPMgQxp1R\n2f2uA49RBicZPx2Pm0chMOVw/u0XHhl916jR4x4+Of+G5JkLpjf0Ycf06+Q71Kxf\nYnaqqhjaaKsPl1/2gtNEkszNX6I7Xgjm65ZHMGbMiYYT8sKHqmRH8pz3MMIAHbvL\nagyeH/UmloadpfaP/qUX0MqpgRG+Pqw6INg0kpidi4X2Hk5wo7C0ZahrNVyxg+7I\nHr5KDNZ3fa9ePeN9AgMBAAGjggKxMIICrTAdBgNVHQ4EFgQUJ12DiTbt4tbfsbpM\nWanQilxNQ1gwHwYDVR0jBBgwFoAUCfS3Rj6kRS/fhEC0494dvPhvTCUwgd4GA1Ud\nHwSB1jCB0zCB0KCBzaCByoaBx2xkYXA6Ly8vQ049c2h5cnVzLVNRQUlTU1VJTkdD\nQS1DQS0xKDYpLENOPXNxYWlzc3VpbmdjYSxDTj1DRFAsQ049UHVibGljJTIwS2V5\nJTIwU2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJhdGlvbixEQz1zaHly\ndXMsREM9bGl2ZT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2U/b2JqZWN0\nQ2xhc3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnQwgfQGCCsGAQUFBwEBBIHnMIHkMIG3\nBggrBgEFBQcwAoaBqmxkYXA6Ly8vQ049c2h5cnVzLVNRQUlTU1VJTkdDQS1DQS0x\nLENOPUFJQSxDTj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxD\nTj1Db25maWd1cmF0aW9uLERDPXNoeXJ1cyxEQz1saXZlP2NBQ2VydGlmaWNhdGU/\nYmFzZT9vYmplY3RDbGFzcz1jZXJ0aWZpY2F0aW9uQXV0aG9yaXR5MCgGCCsGAQUF\nBzABhhxodHRwOi8vb2NzcC5zaHlydXMubGl2ZS9vY3NwMAsGA1UdDwQEAwIFoDA+\nBgkrBgEEAYI3FQcEMTAvBicrBgEEAYI3FQiDg9J2hPHBPYGZlRCGpLF+h+33Q4FJ\nhYzYNoLir3kCAWQCAQ0wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMCcG\nCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwDQYJKoZIhvcN\nAQELBQADggEBAAU+FfwxwqHpuCPb6XI02LbsxT3HmmQ9hLquI/o7sMjMthihCVj6\nv0HgkgurWTl4xhrMN0Jx5VVX+sfRKproPJhJdueVa2XjwpzNNrY93nusZogRLBc7\n6p7PikCwd6pO0/2fpdJxQdujkPA0Dy/2CG4koooPvvNCMejhIv50InrMqVXrLjK9\n9l3XER9AhYz2puaF8vvHpFMipXE4aGe7lAiAHLM5VHEWYdeJ6/65f/EUVuaSdpJo\nDY0YR7LVS37iOR3k8VfSRNzKtW1Q9wytGtMLHPA8rkz3WvtxDWvGzVi3Ia+WQZ8o\nWcAZ4iV4T/ZkW6LUlCMYtdCYvCU2CPoph7A=\n-----END CERTIFICATE-----",
+        "sign_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDK5aQp7bIB4a+n\nVW+JXmmbhXoUwfr2WvcKkT+sXQ3j+XLiFn+tU6fNnYHYzlbIxYtj9hLqOsOPIUPd\nNOA/LMidui3NBnuAAq0zj99XZY8G4lejNRVDWY6LP6yzIDMSPMgQxp1R2f2uA49R\nBicZPx2Pm0chMOVw/u0XHhl916jR4x4+Of+G5JkLpjf0Ycf06+Q71KxfYnaqqhja\naKsPl1/2gtNEkszNX6I7Xgjm65ZHMGbMiYYT8sKHqmRH8pz3MMIAHbvLagyeH/Um\nloadpfaP/qUX0MqpgRG+Pqw6INg0kpidi4X2Hk5wo7C0ZahrNVyxg+7IHr5KDNZ3\nfa9ePeN9AgMBAAECggEADsrTPyNPOQflMIPwD8nMVURT9DN4QoG7RQ/13nEiVB6Z\nm5YcVNymfT0gfFf+x8BvOyhzlJQYMdUxB22Vc8WmEqnCMRJp6plHW1z/4XVMCipy\nTTnPhQuAcvJ/ese8MXYw99gjHBaSgh9MUZHrQ9HwK8ocU3UnJSfQzUCqhxwz+Kk/\nC7E28H8Q+Ks8ZWjTQnqYzYi8S9Lfdo9DUtGXcm5bMI+ySao0o4m4ZhSxH6gnTT9i\nlsWRN6aM3UwVwYHWjn+1BYS0hsiS9aWOwO4Nbp/DLLKmrtzfPpRUMcujtQTELYEX\nyRFUKE1cGHXRC/KOTNDedcRonsjcCbt6qXaWHzk8QQKBgQDpHsJgheQT/i6dOn8c\nJW8IwxB7/+9Ccnaw43lptrJUWzokaPWKyIGXAlVALk/EHIjJYwfS/qS0/58VCPn0\nFBzWoM08LcpVanM/rVsiY4mgdBCY7RQ7j+xSo/YDX7lr2mvGS03CWFHqiu7BCJa2\npzytGeKwp//7cwUdF5dwl+YXSQKBgQDez4N7VfpVRj/utAiRs4b39/zHAbtAkrXS\ny+pPz/Ujqv0XXvaceVQimAZcr/e2BCX2c62ihALoWxgcsHkjdR6pMLcnPOiYwdho\nZqaHqPR8BK+bkfQPnIz9Ws09jYvmY/Esbq+ABQRplhfeidxTa4DsGjVr0WMVbUqR\nyGsko3GmlQKBgDeksurNKqqnAkNfQhXazYz+2oFujpKCtdf1A/b6t8gw2kj0kJ9m\nyp/b27NtGncKBJBlRenUBEZ7uWIQ+XCMGHIWgcZ6e5A1z3qEi3tC3QfijE+kTy8E\nZHk5T7BwedbHlPAI62+XGz5rmR+USD0i3/XFdvmJsC05wB+4kNo8N5yZAoGBAI05\nFEphZYkVPMKMo/3Nv5d+PF7azxgPpWVV0E8ELYmNAFwG2eK12EkQ+L9Y3XYlzPYX\nvg+LAtjJnE/a3v1FZ8ivUvdw2LCx9Pu/TIAh68yLn87IRNx8SrTvD7Wa+Phvklaq\nVVycUX6nHrvzv420TwPXXNLY5aeYHTKnyJlxa0C9AoGAPYdGa7GBsxVpmlyBWjLJ\nDoA295+XAM6Ep986xw1RLtSMiBa4gNQz7o/YCExHCzAxMyO3wnnRuN7QCUhVTcoc\nmXr2z/FGuGY8GUzvby08j8rUuTbsNygD9tRS9drxF8aRTaXhkFgc1oxHYRzDwKGK\nlMWG3OwsjujSxUOxVjX8gmo=\n-----END PRIVATE KEY-----"
+      },
+      "subject": {
+        "fmt": "email",
+        "src": "eaa.userName"
+      },
+      "attrmap": [],
+      "header_value": {
+        "Content-Type": "application/xml"
+      },
+      "response_signature_value_path": ".//{http://www.w3.org/2000/09/xmldsig#}SignatureValue",
+      "response_name_id_path": ".//{urn:oasis:names:tc:SAML:2.0:assertion}NameID",
+      "SOAP_binding_tag": ".//*[@Binding='urn:oasis:names:tc:SAML:2.0:bindings:SOAP']",
+      "sp_NameID_format_tag": ".//{urn:oasis:names:tc:SAML:2.0:metadata}NameIDFormat",
+      "attribute_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}Attribute",
+      "attribute_value_tag": ".//{urn:oasis:names:tc:SAML:2.0:assertion}AttributeValue",
+      "invalid_user": {
+        "username": "samlinvaliduser@ztcore.com",
+        "password": "Saml@123"
+      }
+    },
+    "cors_admin": {
+      "unauth_app_unbound": {
+        "app_url": "https://corsadminautounauthunbound.stage.akamai-access.com",
+        "app_name": "DND_cors_admin_auto_unauth_unbound",
+        "max_age": 86400
+      },
+      "auth_app_unbound": {
+        "app_url": "https://corsadminautoauthunbound.stage.akamai-access.com",
+        "app_name": "DND_cors_admin_auto_auth_unbound",
+        "max_age": 7200
+      },
+      "unauth_app": {
+        "app_url": "https://corsadminautounauth.stage.akamai-access.com",
+        "app_name": "DND_cors_admin_auto_unauth",
+        "max_age": 4500
+      },
+      "auth_app": {
+        "app_url": "https://corsadminautoauth.stage.akamai-access.com",
+        "app_name": "DND_cors_admin_auto_auth",
+        "max_age":3600
+      },
+      "idp_url": "https://dndcorsadminauto.login.stage.akamai-access.com",
+      "idp_name": "DND_cors_admin_auto_idp",
+      "corrupt_cookie": "KYPxraMFwNFYKxpofiSB69cPLvGRrJ4o2fDmNh1YYWzmghUgLHv13PDRrB13OjUizKFNT%2Flfp%2Bruz1DzNtDvNt6Q5%2Flonc982IM1JPt4kd7gD35UxkiWRDGwRT6klrug%2Bfdy%2FkOSbqnwif8WWRrucI5yin5Zhr3oZC5dePlid%2BSNz14zThWjiRwFFZ%2F%2BkwPDYW8rhiGM",
+      "AD_user": {
+        "username": "admincorsuser",
+        "password": "Gdse!d302"
+      },
+      "cloud_user": {
+        "username": "2303mfauser1@eaa.com",
+        "password": "Gdse!d302"
+      }
+    },
+     "cors_alpha": {
+      "unauth_app_unbound": {
+        "app_url": "https://corsalphaautounauthunbound.stage.akamai-access.com",
+        "app_name": "DND_cors_alpha_auto_unauth_unbound",
+        "max_age": 86400
+      },
+      "auth_app_unbound": {
+        "app_url": "https://corsalphaautoauthunbound.stage.akamai-access.com",
+        "app_name": "DND_cors_alpha_auto_auth_unbound",
+        "max_age": 7200
+      },
+      "unauth_app": {
+        "app_url": "https://corsalphaautounauth.stage.akamai-access.com",
+        "app_name": "DND_cors_alpha_auto_unauth",
+        "max_age": 4500
+      },
+      "auth_app": {
+        "app_url": "https://corsalphaautoauth.stage.akamai-access.com",
+        "app_name": "DND_cors_alpha_auto_auth",
+        "max_age":3600
+      },
+      "idp_url": "https://dndcorsadminauto.login.stage.akamai-access.com",
+      "idp_name": "DND_cors_alpha_auto_idp",
+      "corrupt_cookie": "KYPxraMFwNFYKxpofiSB69cPLvGRrJ4o2fDmNh1YYWzmghUgLHv13PDRrB13OjUizKFNT%2Flfp%2Bruz1DzNtDvNt6Q5%2Flonc982IM1JPt4kd7gD35UxkiWRDGwRT6klrug%2Bfdy%2FkOSbqnwif8WWRrucI5yin5Zhr3oZC5dePlid%2BSNz14zThWjiRwFFZ%2F%2BkwPDYW8rhiGM",
+      "AD_user": {
+        "username": "alphacorsuser",
+        "password": "Gdse!d302"
+      },
+      "cloud_user": {
+        "username": "corsclouduser@eaa.com",
+        "password": "Gdse!d302"
+      }
+    },
+    "cors_production": {
+      "unauth_app_unbound": {
+        "app_url": "https://corsprodautounauthunbound.go.sohacloud.net",
+        "app_name": "DND_cors_prod_auto_unauth_unbound",
+        "max_age": 86400
+      },
+      "auth_app_unbound": {
+        "app_url": "https://corsprodautoauthunbound.go.sohacloud.net",
+        "app_name": "DND_cors_prod_auto_auth_unbound",
+        "max_age": 7200
+      },
+      "unauth_app": {
+        "app_url": "https://corsprodautounauth.go.sohacloud.net",
+        "app_name": "DND_cors_prod_auto_unauth",
+        "max_age": 4500
+      },
+      "auth_app": {
+        "app_url": "https://corsprodautoauth.go.sohacloud.net",
+        "app_name": "DND_cors_prod_auto_auth",
+        "max_age":3600
+      },
+      "idp_url": "https://dndcorsprodauto.login.go.sohacloud.net",
+      "idp_name": "DND_cors_prod_auto_idp",
+      "corrupt_cookie": "KYPxraMFwNFYKxpofiSB69cPLvGRrJ4o2fDmNh1YYWzmghUgLHv13PDRrB13OjUizKFNT%2Flfp%2Bruz1DzNtDvNt6Q5%2Flonc982IM1JPt4kd7gD35UxkiWRDGwRT6klrug%2Bfdy%2FkOSbqnwif8WWRrucI5yin5Zhr3oZC5dePlid%2BSNz14zThWjiRwFFZ%2F%2BkwPDYW8rhiGM",
+      "AD_user": {
+        "username": "prodcorsuser",
+        "password": "Gdse!d302"
+      },
+      "cloud_user": {
+        "username": "corsprodclouduser@eaa.com",
+        "password": "Gdse!d302"
+      }
+    },
+    "cors_regression": {
+      "unauth_app_unbound": {
+        "app_url": "https://corsregressionautounauthunbound.go.regression.akamai-access.com",
+        "app_name": "DND_cors_regression_auto_unauth_unbound",
+        "max_age": 86400
+      },
+      "auth_app_unbound": {
+        "app_url": "https://corsregressionautoauthunbound.go.regression.akamai-access.com",
+        "app_name": "DND_cors_regression_auto_auth_unbound",
+        "max_age": 7200
+      },
+      "unauth_app": {
+        "app_url": "https://corsregressionautounauth.go.regression.akamai-access.com",
+        "app_name": "DND_cors_regression_auto_unauth",
+        "max_age": 4500
+      },
+      "auth_app": {
+        "app_url": "https://corsregressionautoauth.go.regression.akamai-access.com",
+        "app_name": "DND_cors_regression_auto_auth",
+        "max_age": 3600
+      },
+      "idp_url": "https://dndcorsregressionauto.login.go.regression.akamai-access.com",
+      "idp_name": "DND_cors_regression_auto_idp",
+      "corrupt_cookie": "KYPxraMFwNFYKxpofiSB69cPLvGRrJ4o2fDmNh1YYWzmghUgLHv13PDRrB13OjUizKFNT%2Flfp%2Bruz1DzNtDvNt6Q5%2Flonc982IM1JPt4kd7gD35UxkiWRDGwRT6klrug%2Bfdy%2FkOSbqnwif8WWRrucI5yin5Zhr3oZC5dePlid%2BSNz14zThWjiRwFFZ%2F%2BkwPDYW8rhiGM",
+      "AD_user": {
+        "username": "regcorsuser",
+        "password": "Gdse!d302"
+      },
+      "cloud_user": {
+        "username": "corsregclouduser@eaa.com",
+        "password": "Gdse!d302"
+      }
+    }}
