@@ -1,9 +1,5 @@
-#!/usr/bin/env python3
-# Copyright 2009-2017 BHG http://bw.org/
+a = 1000111111111
+b = 1000111111111
 
-if True:
-    print('if true')
-elif False:
-    print('elif true')
-else:
-    print('neither true')
+if 1 == 1 and 1>2:
+    print("What")

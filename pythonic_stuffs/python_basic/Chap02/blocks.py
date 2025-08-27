@@ -6,3 +6,6 @@ y = 73
 
 if x < y:
     print('x < y: x is {} and y is {}'.format(x, y))
+
+name = "Raj"
+print("My name is {} and I am an engineer".format(name))
