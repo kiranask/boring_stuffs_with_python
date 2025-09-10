@@ -8,8 +8,13 @@ Example:
 
 Given nums = [2, 7, 11, 15], target = 9, Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1].
 
+How to remember
+
+“If not seen → wait for partner.
+If seen → found partner.”
 
 """
+
 
 class Solution:
     def twoSum(self, nums, target):
@@ -18,12 +23,22 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        dic ={}
+        dic ={} #  store numbers we have seen: number → index
         for i in range(len(nums)):
+
             if  nums[i] not  in dic:
+                # If not seen before, store the partner we will need in future
+                # Example: if target=9 and nums[i]=2,
+                # then we will need 7 later. So store 7 → index_of_2
+                # partner = target - nums[i]
                 dic[target - nums[i]] = i
+
             else:
-                yield dic[nums[i]],i
+                # If yes → we found the pair!
+                # dic[nums[i]] is the index of the first number
+                # i is the index of the current number
+
+                yield [dic[nums[i]], i]
 
     def two_sum(self, nums, target):
         dic = {}
@@ -32,7 +47,7 @@ class Solution:
             if item not in dic:
                 dic[target-item] = item
             else:
-                yield [item, dic[item]]
+                yield [nums.index(item), nums.index(dic[item])]
 
 # for item in Solution().twoSum([13,4,45,6, 47,50,1], 51):
 #     print(item)
