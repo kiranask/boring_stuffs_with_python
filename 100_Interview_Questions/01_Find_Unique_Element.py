@@ -15,7 +15,7 @@ def find_unique_element(lst):
     repeated = []
     for key, value in dic.items():
 
-        if value > 1:
+        if value == 1:
             repeated.append(key)
     return repeated
 print(find_unique_element([1,2,3,4,5,1,2]))
