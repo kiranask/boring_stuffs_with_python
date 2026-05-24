@@ -1,0 +1,14 @@
+from typing import List
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        num_map = {}
+        complement =0
+        indexs = []
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in num_map:
+                # Store the index of the the current num with its index.
+                return [i, num_map[complement]]
+            else:
+                num_map[nums[i]] = i
+        return []
