@@ -1,0 +1,19 @@
+{
+  "employee": {
+    "name": "Kiran",
+    "role": "Staff Software Engineer",
+    "company": "Akamai",
+    "experience": 10,
+    "skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "AWS"
+    ],
+    "location": {
+      "city": "Bangalore",
+      "country": "India"
+    }
+  }
+}
