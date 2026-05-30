@@ -2,8 +2,6 @@ from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         num_map = {}
-        complement =0
-        indexs = []
         for i in range(len(nums)):
             complement = target - nums[i]
             if complement in num_map:
@@ -12,3 +10,7 @@ class Solution:
             else:
                 num_map[nums[i]] = i
         return []
+
+
+sol = Solution()
+print(sol.twoSum(nums=[2,7,11,15], target=9))

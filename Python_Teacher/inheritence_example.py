@@ -1,3 +1,8 @@
+"""
+What is inheritence 
+
+"""
+
 class Animal:
     def speak(self):
         print("I am an animal")

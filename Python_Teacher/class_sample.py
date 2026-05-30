@@ -1,6 +1,5 @@
 class Animal:
-    # jsdgc
-    # jhsdcgj
+
     pass
 
 
